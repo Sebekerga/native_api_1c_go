@@ -160,12 +160,12 @@ typedef struct LanguageExtenderVTable
     // `find_prop` function pointer, used to find property by name
     // gets reference to self and pointer to property name
     // returns index of property or -1 if property was not found
-    long int (*find_prop)(AddIn *self, const wchar_t *prop_name);
+    long int (*find_prop)(AddIn *self, wchar_t *prop_name);
 
     // `get_prop_name` function pointer, used to get property name
     // gets reference to self, index of property and index of language
     // returns pointer to property name
-    const wchar_t *(*get_prop_name)(AddIn *self, long int prop_index, long int lang_index);
+    wchar_t *(*get_prop_name)(AddIn *self, long int prop_index, long int lang_index);
 
     // `get_prop_val` function pointer, used to get property value
     // gets reference to self, index of property and pointer to value
@@ -175,7 +175,7 @@ typedef struct LanguageExtenderVTable
     // `set_prop_val` function pointer, used to set property value
     // gets reference to self, index of property and pointer to value
     // returns true if value was set successfully
-    bool (*set_prop_val)(AddIn *self, long int prop_index, const void *value);
+    bool (*set_prop_val)(AddIn *self, long int prop_index, void *value);
 
     // `is_prop_readable` function pointer, used to check if property is readable
     // gets reference to self and index of property
@@ -194,12 +194,12 @@ typedef struct LanguageExtenderVTable
     // `find_method` function pointer, used to find method by name
     // gets reference to self and pointer to method name
     // returns index of method or -1 if method was not found
-    long int (*find_method)(AddIn *self, const wchar_t *method_name);
+    long int (*find_method)(AddIn *self, wchar_t *method_name);
 
     // `get_method_name` function pointer, used to get method name
     // gets reference to self, index of method and index of language
     // returns pointer to method name
-    const wchar_t *(*get_method_name)(AddIn *self, long int method_index, long int lang_index);
+    wchar_t *(*get_method_name)(AddIn *self, long int method_index, long int lang_index);
 
     // `get_n_params` function pointer, used to get number of method parameters
     // gets reference to self and index of method
@@ -214,105 +214,30 @@ typedef struct LanguageExtenderVTable
     // `call_as_proc` function pointer, used to call method as procedure
     // gets reference to self, index of method and pointer to parameters
     // returns true if method was called successfully
-    bool (*call_as_proc)(AddIn *self, long int method_index, const void *params);
+    bool (*call_as_proc)(AddIn *self, long int method_index, void *params);
 
     // `call_as_func` function pointer, used to call method as function
     // gets reference to self, index of method, pointer to parameters and pointer to result
     // returns true if method was called successfully
-    bool (*call_as_func)(AddIn *self, long int method_index, const void *params, void *result);
+    bool (*call_as_func)(AddIn *self, long int method_index, void *params, void *result);
 
 } LanguageExtenderVTable;
 
-static bool _register_extension_as(AddIn *self, wchar_t *extension_name)
-{
-    logToConsole("Registering extension as A");
-    *extension_name = *L"A";
-    return true;
-}
-
-static long int _get_n_props(AddIn *self)
-{
-    logToConsole("Getting number of properties");
-    return 1;
-}
-
-static long int _find_prop(AddIn *self, const wchar_t *prop_name)
-{
-    logToConsole("Finding property");
-    return 0;
-}
-
-static const wchar_t *_get_prop_name(AddIn *self, long int prop_index, long int lang_index)
-{
-    logToConsole("Getting property name");
-    return L"property";
-}
-
-static bool _get_prop_val(AddIn *self, long int prop_index, void *value)
-{
-    logToConsole("Getting property value");
-    return true;
-}
-
-static bool _set_prop_val(AddIn *self, long int prop_index, const void *value)
-{
-    logToConsole("Setting property value");
-    return true;
-}
-
-static bool _is_prop_readable(AddIn *self, long int prop_index)
-{
-    logToConsole("Checking if property is readable");
-    return true;
-}
-
-static bool _is_prop_writable(AddIn *self, long int prop_index)
-{
-    logToConsole("Checking if property is writable");
-    return true;
-}
-
-static long int _get_n_methods(AddIn *self)
-{
-    logToConsole("Getting number of methods");
-    return 1;
-}
-
-static long int _find_method(AddIn *self, const wchar_t *method_name)
-{
-    logToConsole("Finding method");
-    return 0;
-}
-
-static const wchar_t *_get_method_name(AddIn *self, long int method_index, long int lang_index)
-{
-    logToConsole("Getting method name");
-    return L"method";
-}
-
-static long int _get_n_params(AddIn *self, long int method_index)
-{
-    logToConsole("Getting number of method parameters");
-    return 1;
-}
-
-static bool _get_param_default_val(AddIn *self, long int method_index, long int param_index, void *value)
-{
-    logToConsole("Getting default value of method parameter");
-    return true;
-}
-
-static bool _call_as_proc(AddIn *self, long int method_index, const void *params)
-{
-    logToConsole("Calling method as procedure");
-    return true;
-}
-
-static bool _call_as_func(AddIn *self, long int method_index, const void *params, void *result)
-{
-    logToConsole("Calling method as function");
-    return true;
-}
+extern bool _register_extension_as(AddIn *self, wchar_t *extension_name);
+extern long int _get_n_props(AddIn *self);
+extern long int _find_prop(AddIn *self, wchar_t *prop_name);
+extern wchar_t *_get_prop_name(AddIn *self, long int prop_index, long int lang_index);
+extern bool _get_prop_val(AddIn *self, long int prop_index, void *value);
+extern bool _set_prop_val(AddIn *self, long int prop_index, void *value);
+extern bool _is_prop_readable(AddIn *self, long int prop_index);
+extern bool _is_prop_writable(AddIn *self, long int prop_index);
+extern long int _get_n_methods(AddIn *self);
+extern long int _find_method(AddIn *self, wchar_t *method_name);
+extern wchar_t *_get_method_name(AddIn *self, long int method_index, long int lang_index);
+extern long int _get_n_params(AddIn *self, long int method_index);
+extern bool _get_param_default_val(AddIn *self, long int method_index, long int param_index, void *value);
+extern bool _call_as_proc(AddIn *self, long int method_index, void *params);
+extern bool _call_as_func(AddIn *self, long int method_index, void *params, void *result);
 
 static LanguageExtenderVTable *CreateLanguageExtender()
 {
