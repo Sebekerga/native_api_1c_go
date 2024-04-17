@@ -3,13 +3,9 @@ package main
 /*
 #include <wchar.h>
 #include <stdint.h>
-#include <addin.h>
-
+#include <stdbool.h>
 */
 import "C"
-import (
-	"fmt"
-)
 
 const DUMMYHTTP_URL = "http://localhost:8080"
 
@@ -24,15 +20,14 @@ func GetClassNames() *C.wchar_t {
 }
 
 //export GetClassObject
-func GetClassObject(className *C.wchar_t, component **C.struct_AddIn) C.long {
+func GetClassObject(className *C.wchar_t, component **C.void) C.long {
 	classNameStr := WCharToString(className)
-	logToConsoleGo(fmt.Sprintf("GetClassObject was called, className: %s", classNameStr))
-
-	logToConsoleGo("Creating Component in Go")
-	creatingResult := CreateComponent(component, C.struct_Component{})
-	logToConsoleGo("Component created in Go")
-
-	return creatingResult
+	switch classNameStr {
+	case "A":
+		return CreateComponentA(component)
+	default:
+		return 0
+	}
 }
 
 //export DestroyObject
