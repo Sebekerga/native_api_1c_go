@@ -8,6 +8,7 @@ TODO: Add description
 #include <wchar.h>
 #include <stdlib.h>
 #include <logging.h>
+#include <platformtypes.h>
 
 #ifndef ADDIN_H
 #define ADDIN_H
@@ -32,8 +33,60 @@ static LocaleBaseVTable *CreateLocaleBase();
 typedef struct UserLanguageBaseVTable UserLanguageBaseVTable;
 static UserLanguageBaseVTable *CreateUserLanguageBase();
 
-typedef struct MemoryManager MemoryManager;
 typedef struct Connection Connection;
+
+typedef struct MemoryManager MemoryManager;
+typedef struct MemoryManagerVTable
+{
+    // de-allocator pointer
+    int dtor_a;
+// for linux only
+#if defined(__linux__)
+    int dtor_b;
+#endif
+
+    // `alloc_memory` function pointer, used to allocate memory
+    // gets reference to self, pointer to pointer and size of memory
+    // returns true if memory was allocated successfully
+    bool (*alloc_memory)(MemoryManager *self, void **memory, uint32_t size);
+
+    // `free_memory` function pointer, used to free memory
+    // gets reference to self and pointer to pointer
+    void (*free_memory)(MemoryManager *self, void **memory);
+} MemoryManagerVTable;
+
+typedef struct MemoryManager
+{
+    // pointer to vtable
+    MemoryManagerVTable *vtable;
+} MemoryManager;
+
+typedef enum PlatformCapabilities
+{
+    AppCapabilitiesInvalid = -1,
+    AppCapabilities1 = 1,
+    AppCapabilities2 = 2,
+    AppCapabilities3 = 3,
+    AppCapabilitiesLast = 3,
+} PlatformCapabilities;
+
+typedef enum AttachType
+{
+    AttachTypeNotIsolated = 1,
+    AttachTypeIsolated = 2,
+    AttachTypeAny = 3,
+
+} AttachType;
+
+typedef struct IAddInDefBase
+{
+    // predefined interface
+    InitDoneBaseVTable *init_done;
+    LanguageExtenderVTable *language_extender;
+    LocaleBaseVTable *locale;
+    UserLanguageBaseVTable *user_language;
+
+} IAddInDefBase;
 
 typedef struct AddInInterface
 {
@@ -44,7 +97,8 @@ typedef struct AddInInterface
     UserLanguageBaseVTable *user_language;
 
     // component storage
-    MemoryManager *mem_manager;
+    MemoryManager *memory_manager;
+    bool memory_manager_set;
     Connection *connection;
     ADDIN_TYPE *component;
 
@@ -58,6 +112,10 @@ static AddInInterface *CreateGenericComponent()
     addin->language_extender = CreateLanguageExtender();
     addin->locale = CreateLocaleBase();
     addin->user_language = CreateUserLanguageBase();
+
+    addin->memory_manager = NULL;
+    addin->memory_manager_set = false;
+
     logToConsole("AddIn created in C");
 
     return addin;
@@ -105,7 +163,7 @@ typedef struct InitDoneBaseVTable
     // `set_mem_manager` function pointer, used to set memory manager
     // gets reference to self and pointer to 1C memory manager
     // should return true if initialization was successful
-    bool (*set_mem_manager)(AddInInterface *self, MemoryManager *mem_manager);
+    bool (*set_mem_manager)(AddInInterface *self, MemoryManager *memory_manager);
 
     // `get_info` function pointer, used to get version of the library
     // gets reference to self
@@ -123,11 +181,17 @@ static bool _init(AddInInterface *self, Connection *connection)
     return true;
 }
 
-static bool _set_mem_manager(AddInInterface *self, MemoryManager *mem_manager)
+static bool _set_mem_manager(AddInInterface *self, MemoryManager *memory_manager)
 {
-    logToConsole("Set memory manager function was called");
-    self->mem_manager = mem_manager;
+    logToConsole("Setting memory manager");
+
+    logToConsole("Pointer to AddIn: ");
+    logPointerToConsole(self);
+
+    self->memory_manager = memory_manager;
+    self->memory_manager_set = true;
     logToConsole("Memory manager was set");
+
     return true;
 }
 
@@ -164,93 +228,93 @@ typedef struct LanguageExtenderVTable
     // `register_extension_as` function pointer, used to register extension
     // gets reference to self and pointer to extension name
     // returns true if extension was registered successfully
-    bool (*register_extension_as)(AddInInterface *self, wchar_t *extension_name);
+    bool (*register_extension_as)(LanguageExtenderVTable **self, wchar_t *extension_name);
 
     // `get_n_props` function pointer, used to get number of properties
     // gets reference to self and return number of properties
-    long int (*get_n_props)(AddInInterface *self);
+    long int (*get_n_props)(LanguageExtenderVTable **self);
 
     // `find_prop` function pointer, used to find property by name
     // gets reference to self and pointer to property name
     // returns index of property or -1 if property was not found
-    long int (*find_prop)(AddInInterface *self, wchar_t *prop_name);
+    long int (*find_prop)(LanguageExtenderVTable **self, wchar_t *prop_name);
 
     // `get_prop_name` function pointer, used to get property name
     // gets reference to self, index of property and index of language
     // returns pointer to property name
-    wchar_t *(*get_prop_name)(AddInInterface *self, long int prop_index, long int lang_index);
+    wchar_t *(*get_prop_name)(LanguageExtenderVTable **self, long int prop_index, long int lang_index);
 
     // `get_prop_val` function pointer, used to get property value
     // gets reference to self, index of property and pointer to value
     // returns true if value was got successfully
-    bool (*get_prop_val)(AddInInterface *self, long int prop_index, void *value);
+    bool (*get_prop_val)(LanguageExtenderVTable **self, long int prop_index, PlatformVar *value);
 
     // `set_prop_val` function pointer, used to set property value
     // gets reference to self, index of property and pointer to value
     // returns true if value was set successfully
-    bool (*set_prop_val)(AddInInterface *self, long int prop_index, void *value);
+    bool (*set_prop_val)(LanguageExtenderVTable **self, long int prop_index, PlatformVar *value);
 
     // `is_prop_readable` function pointer, used to check if property is readable
     // gets reference to self and index of property
     // returns true if property is readable
-    bool (*is_prop_readable)(AddInInterface *self, long int prop_index);
+    bool (*is_prop_readable)(LanguageExtenderVTable **self, long int prop_index);
 
     // `is_prop_writable` function pointer, used to check if property is writable
     // gets reference to self and index of property
     // returns true if property is writable
-    bool (*is_prop_writable)(AddInInterface *self, long int prop_index);
+    bool (*is_prop_writable)(LanguageExtenderVTable **self, long int prop_index);
 
     // `get_n_methods` function pointer, used to get number of methods
     // gets reference to self and return number of methods
-    long int (*get_n_methods)(AddInInterface *self);
+    long int (*get_n_methods)(LanguageExtenderVTable **self);
 
     // `find_method` function pointer, used to find method by name
     // gets reference to self and pointer to method name
     // returns index of method or -1 if method was not found
-    long int (*find_method)(AddInInterface *self, wchar_t *method_name);
+    long int (*find_method)(LanguageExtenderVTable **self, wchar_t *method_name);
 
     // `get_method_name` function pointer, used to get method name
     // gets reference to self, index of method and index of language
     // returns pointer to method name
-    wchar_t *(*get_method_name)(AddInInterface *self, long int method_index, long int lang_index);
+    wchar_t *(*get_method_name)(LanguageExtenderVTable **self, long int method_index, long int lang_index);
 
     // `get_n_params` function pointer, used to get number of method parameters
     // gets reference to self and index of method
     // returns number of parameters
-    long int (*get_n_params)(AddInInterface *self, long int method_index);
+    long int (*get_n_params)(LanguageExtenderVTable **self, long int method_index);
 
     // `get_param_default_val` function pointer, used to get default value of method parameter
     // gets reference to self, index of method, index of parameter and pointer to value
     // returns true if value was got successfully
-    bool (*get_param_default_val)(AddInInterface *self, long int method_index, long int param_index, void *value);
+    bool (*get_param_default_val)(LanguageExtenderVTable **self, long int method_index, long int param_index, void *value);
 
     // `call_as_proc` function pointer, used to call method as procedure
     // gets reference to self, index of method and pointer to parameters
     // returns true if method was called successfully
-    bool (*call_as_proc)(AddInInterface *self, long int method_index, void *params);
+    bool (*call_as_proc)(LanguageExtenderVTable **self, long int method_index, void *params);
 
     // `call_as_func` function pointer, used to call method as function
     // gets reference to self, index of method, pointer to parameters and pointer to result
     // returns true if method was called successfully
-    bool (*call_as_func)(AddInInterface *self, long int method_index, void *params, void *result);
+    bool (*call_as_func)(LanguageExtenderVTable **self, long int method_index, void *params, void *result);
 
 } LanguageExtenderVTable;
 
-extern bool _register_extension_as(AddInInterface *self, wchar_t *extension_name);
-extern long int _get_n_props(AddInInterface *self);
-extern long int _find_prop(AddInInterface *self, wchar_t *prop_name);
-extern wchar_t *_get_prop_name(AddInInterface *self, long int prop_index, long int lang_index);
-extern bool _get_prop_val(AddInInterface *self, long int prop_index, void *value);
-extern bool _set_prop_val(AddInInterface *self, long int prop_index, void *value);
-extern bool _is_prop_readable(AddInInterface *self, long int prop_index);
-extern bool _is_prop_writable(AddInInterface *self, long int prop_index);
-extern long int _get_n_methods(AddInInterface *self);
-extern long int _find_method(AddInInterface *self, wchar_t *method_name);
-extern wchar_t *_get_method_name(AddInInterface *self, long int method_index, long int lang_index);
-extern long int _get_n_params(AddInInterface *self, long int method_index);
-extern bool _get_param_default_val(AddInInterface *self, long int method_index, long int param_index, void *value);
-extern bool _call_as_proc(AddInInterface *self, long int method_index, void *params);
-extern bool _call_as_func(AddInInterface *self, long int method_index, void *params, void *result);
+extern bool _register_extension_as(LanguageExtenderVTable **self, wchar_t *extension_name);
+extern long int _get_n_props(LanguageExtenderVTable **self);
+extern long int _find_prop(LanguageExtenderVTable **self, wchar_t *prop_name);
+extern wchar_t *_get_prop_name(LanguageExtenderVTable **self, long int prop_index, long int lang_index);
+extern bool _get_prop_val(LanguageExtenderVTable **self, long int prop_index, PlatformVar *value);
+extern bool _set_prop_val(LanguageExtenderVTable **self, long int prop_index, PlatformVar *value);
+extern bool _is_prop_readable(LanguageExtenderVTable **self, long int prop_index);
+extern bool _is_prop_writable(LanguageExtenderVTable **self, long int prop_index);
+extern long int _get_n_methods(LanguageExtenderVTable **self);
+extern long int _find_method(LanguageExtenderVTable **self, wchar_t *method_name);
+extern wchar_t *_get_method_name(LanguageExtenderVTable **self, long int method_index, long int lang_index);
+extern long int _get_n_params(LanguageExtenderVTable **self, long int method_index);
+extern bool _get_param_default_val(LanguageExtenderVTable **self, long int method_index, long int param_index, void *value);
+extern bool _call_as_proc(LanguageExtenderVTable **self, long int method_index, void *params);
+extern bool _call_as_func(LanguageExtenderVTable **self, long int method_index, void *params, void *result);
 
 static LanguageExtenderVTable *CreateLanguageExtender()
 {
@@ -329,32 +393,6 @@ static UserLanguageBaseVTable *CreateUserLanguageBase()
     vtable->set_user_language = _set_user_language;
     return vtable;
 }
-
-typedef struct MemoryManagerVTable
-{
-    // de-allocator pointer
-    int dtor_a;
-// for linux only
-#if defined(__linux__)
-    int dtor_b;
-#endif
-
-    // `alloc_memory` function pointer, used to allocate memory
-    // gets reference to self, pointer to pointer and size of memory
-    // returns true if memory was allocated successfully
-    bool (*alloc_memory)(AddInInterface *self, void **memory, size_t size);
-
-    // `free_memory` function pointer, used to free memory
-    // gets reference to self and pointer to pointer
-    void (*free_memory)(AddInInterface *self, void **memory);
-} MemoryManagerVTable;
-
-typedef struct MemoryManager
-{
-    // pointer to vtable
-    MemoryManagerVTable *vtable;
-} MemoryManager;
-
 #undef ADDIN_TYPE
 
 #endif

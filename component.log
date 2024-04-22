@@ -1,0 +1,1773 @@
+﻿GO: 2024/04/18 17:12:11 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 17:12:11 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 17:12:11 lib.go:34: #0: 0x7ffc2d5036f8 = 0x41, 0x7ffc2d5036f9 = 0x0
+GO: 2024/04/18 17:12:11 lib.go:34: #1: 0x7ffc2d5036fa = 0x0, 0x7ffc2d5036fb = 0x0
+GO: 2024/04/18 17:12:11 lib.go:44: Array pointer: 0x7ffc2d5036f8
+GO: 2024/04/18 17:12:11 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 17:12:11 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 17:12:11 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 17:12:11 logging.go:51: Creating AddIn in C
+GO: 2024/04/18 17:12:11 logging.go:51: Creating LanguageExtender in C
+GO: 2024/04/18 17:12:11 logging.go:51: Created LanguageExtender in C
+GO: 2024/04/18 17:12:11 logging.go:51: AddIn created in C
+GO: 2024/04/18 17:12:11 logging.go:51: Attempting to allocate memory before setting memory manager
+GO: 2024/04/18 17:12:11 logging.go:51: Memory was allocated successfully
+GO: 2024/04/18 17:12:11 logging.go:51: Memory manager was set
+GO: 2024/04/18 17:12:11 logging.go:51: Init function was called
+GO: 2024/04/18 17:12:11 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 17:12:11 component.go:95: Getting property value for index 0
+GO: 2024/04/18 17:12:11 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 17:12:11 platformtypes.go:58: WChar length: 14
+GO: 2024/04/18 17:12:11 platformtypes.go:59: Target length: 28
+GO: 2024/04/18 17:12:11 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 17:12:11 platformtypes.go:63: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 17:12:11 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 17:12:11 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 17:12:11 component.go:95: Getting property value for index 0
+GO: 2024/04/18 17:12:11 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 17:12:11 platformtypes.go:58: WChar length: 14
+GO: 2024/04/18 17:12:11 platformtypes.go:59: Target length: 28
+GO: 2024/04/18 17:12:11 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 17:12:11 platformtypes.go:63: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 17:12:11 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 17:12:11 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 17:12:11 component.go:95: Getting property value for index 0
+GO: 2024/04/18 17:12:11 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 17:12:11 platformtypes.go:58: WChar length: 14
+GO: 2024/04/18 17:12:11 platformtypes.go:59: Target length: 28
+GO: 2024/04/18 17:12:11 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 17:12:11 platformtypes.go:63: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 17:12:11 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 17:12:11 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 17:12:11 component.go:95: Getting property value for index 0
+GO: 2024/04/18 17:12:11 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 17:12:11 platformtypes.go:58: WChar length: 14
+GO: 2024/04/18 17:12:11 platformtypes.go:59: Target length: 28
+GO: 2024/04/18 17:12:11 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 17:12:11 platformtypes.go:63: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 17:12:11 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 17:12:11 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 17:12:11 component.go:95: Getting property value for index 0
+GO: 2024/04/18 17:12:11 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 17:12:11 platformtypes.go:58: WChar length: 14
+GO: 2024/04/18 17:12:11 platformtypes.go:59: Target length: 28
+GO: 2024/04/18 17:12:11 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 17:12:11 platformtypes.go:63: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 17:12:11 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 17:12:11 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 17:12:11 component.go:95: Getting property value for index 0
+GO: 2024/04/18 17:12:11 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 17:12:11 platformtypes.go:58: WChar length: 14
+GO: 2024/04/18 17:12:11 platformtypes.go:59: Target length: 28
+GO: 2024/04/18 17:12:11 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 17:12:11 platformtypes.go:63: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 17:12:11 component.go:98: Failed to set string value: memory allocation failed
+RS: 2024-04-18 12:18:40.016696 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:26:08.509641800 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:26:08.510529600 - - - - - - Platform is creating object - - - - - -
+RS: 2024-04-18 12:26:25.114095800 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:26:25.114545300 - - - - - - Platform is creating object - - - - - -
+RS: 2024-04-18 12:27:55.222949100 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:27:55.223399500 - - - - - - Platform is creating object - - - - - -
+RS: 2024-04-18 12:29:58.360960 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:29:58.361479900 - - - - - - Platform is creating object - - - - - -
+RS: 2024-04-18 12:31:02.177178100 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:31:02.177372400 - - - - Platform is getting attach type - - - - -
+RS: 2024-04-18 12:31:02.177924200 - - - - - - Platform is creating - - - - - -
+RS: 2024-04-18 12:32:38.611881500 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:32:38.612044500 CLASS_NAMES: [48, 0]
+RS: 2024-04-18 12:32:38.612277 - - - - Platform is getting attach type - - - - -
+RS: 2024-04-18 12:32:38.612728800 - - - - - - Platform is creating - - - - - -
+RS: 2024-04-18 12:36:57.703424300 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:36:57.703597500 #0: 0x00007ffc8bbdbdd2 = 0x30, 0x00007ffc8bbdbdd4 = 0x00
+RS: 2024-04-18 12:36:57.703855300 #1: 0x00007ffc8bbdbdd4 = 0x00, 0x00007ffc8bbdbdd6 = 0x00
+RS: 2024-04-18 12:36:57.704075600 - - - - Platform is getting attach type - - - - -
+RS: 2024-04-18 12:36:57.704610900 - - - - - - Platform is creating - - - - - -
+RS: 2024-04-18 12:37:25.231139900 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:37:25.231309400 #0: 0x00007ffc8983bdd2 = 0x30, 0x00007ffc8983bdd3 = 0x00
+RS: 2024-04-18 12:37:25.231476200 #1: 0x00007ffc8983bdd4 = 0x00, 0x00007ffc8983bdd5 = 0x00
+RS: 2024-04-18 12:37:25.231610 - - - - Platform is getting attach type - - - - -
+RS: 2024-04-18 12:37:25.232017700 - - - - - - Platform is creating - - - - - -
+RS: 2024-04-18 12:37:45.474949900 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:37:45.475173900 #0: 0x00007ffc8983bdd2 = 0x41, 0x00007ffc8983bdd3 = 0x00
+RS: 2024-04-18 12:37:45.475265100 #1: 0x00007ffc8983bdd4 = 0x00, 0x00007ffc8983bdd5 = 0x00
+RS: 2024-04-18 12:37:45.475510700 - - - - Platform is getting attach type - - - - -
+RS: 2024-04-18 12:37:45.476164100 - - - - - - Platform is creating - - - - - -
+RS: 2024-04-18 12:38:34.800973400 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:38:34.801128400 #0: 0x00007ffc8983bdd2 = 0x41, 0x00007ffc8983bdd3 = 0x00
+RS: 2024-04-18 12:38:34.801210200 #1: 0x00007ffc8983bdd4 = 0x00, 0x00007ffc8983bdd5 = 0x00
+RS: 2024-04-18 12:38:34.801384900 - - - - Platform is getting attach type - - - - -
+RS: 2024-04-18 12:38:34.801808300 - - - - - - Platform is creating - - - - - -
+RS: 2024-04-18 12:38:43.176896400 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:38:43.177051300 #0: 0x00007ffc8983bdd2 = 0x30, 0x00007ffc8983bdd3 = 0x00
+RS: 2024-04-18 12:38:43.177136300 #1: 0x00007ffc8983bdd4 = 0x00, 0x00007ffc8983bdd5 = 0x00
+RS: 2024-04-18 12:38:43.177206900 - - - - Platform is getting attach type - - - - -
+RS: 2024-04-18 12:38:43.177586200 - - - - - - Platform is creating - - - - - -
+GO: 2024/04/18 17:39:32 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 17:39:32 lib.go:26: GetClassNames was called, returning: 0
+GO: 2024/04/18 17:39:32 lib.go:34: #0: 0x7ffc2d5036f8 = 0x30, 0x7ffc2d5036f9 = 0x0
+GO: 2024/04/18 17:39:32 lib.go:34: #1: 0x7ffc2d5036fa = 0x0, 0x7ffc2d5036fb = 0x0
+GO: 2024/04/18 17:39:32 lib.go:44: Array pointer: 0x7ffc2d5036f8
+RS: 2024-04-18 12:41:19.624971100 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:41:19.625239 #0: 0x00007ffc804fbdd2 = 0x30, 0x00007ffc804fbdd3 = 0x00
+RS: 2024-04-18 12:41:19.625315100 #1: 0x00007ffc804fbdd4 = 0x00, 0x00007ffc804fbdd5 = 0x00
+RS: 2024-04-18 12:41:19.625706700 - - - - - - Platform is creating - - - - - -
+RS: 2024-04-18 12:41:31.729901800 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:41:31.730044100 #0: 0x00007ffc804fbdd2 = 0x30, 0x00007ffc804fbdd3 = 0x00
+RS: 2024-04-18 12:41:31.730143900 #1: 0x00007ffc804fbdd4 = 0x00, 0x00007ffc804fbdd5 = 0x00
+RS: 2024-04-18 12:41:31.730574300 - - - - - - Platform is creating - - - - - -
+RS: 2024-04-18 12:45:33.906183300 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:45:33.906344200 #0: 0x00007ffc8983bda2 = 0x30, 0x00007ffc8983bda3 = 0x00
+RS: 2024-04-18 12:45:33.906450100 #1: 0x00007ffc8983bda4 = 0x00, 0x00007ffc8983bda5 = 0x00
+RS: 2024-04-18 12:45:33.906778800 - - - - - - Platform is creating - - - - - -
+GO: 2024/04/18 17:50:38 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 17:50:38 lib.go:26: GetClassNames was called, returning: 0
+GO: 2024/04/18 17:50:38 lib.go:34: #0: 0x7ffc2d5036f8 = 0x30, 0x7ffc2d5036f9 = 0x0
+GO: 2024/04/18 17:50:38 lib.go:34: #1: 0x7ffc2d5036fa = 0x0, 0x7ffc2d5036fb = 0x0
+GO: 2024/04/18 17:50:38 lib.go:44: Array pointer: 0x7ffc2d5036f8
+GO: 2024/04/18 17:50:53 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 17:50:53 lib.go:26: GetClassNames was called, returning: 0
+GO: 2024/04/18 17:50:53 lib.go:34: #0: 0x7ffc2d5036f8 = 0x30, 0x7ffc2d5036f9 = 0x0
+GO: 2024/04/18 17:50:53 lib.go:34: #1: 0x7ffc2d5036fa = 0x0, 0x7ffc2d5036fb = 0x0
+GO: 2024/04/18 17:50:53 lib.go:44: Array pointer: 0x7ffc2d5036f8
+GO: 2024/04/18 17:52:46 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 17:52:46 lib.go:26: GetClassNames was called, returning: 0
+GO: 2024/04/18 17:52:46 lib.go:34: #0: 0x7ffc2d5026f8 = 0x30, 0x7ffc2d5026f9 = 0x0
+GO: 2024/04/18 17:52:46 lib.go:34: #1: 0x7ffc2d5026fa = 0x0, 0x7ffc2d5026fb = 0x0
+GO: 2024/04/18 17:52:46 lib.go:44: Array pointer: 0x7ffc2d5026f8
+GO: 2024/04/18 17:53:06 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 17:53:06 lib.go:26: GetClassNames was called, returning: 0
+GO: 2024/04/18 17:53:06 lib.go:34: #0: 0x7ffc2d5026f8 = 0x30, 0x7ffc2d5026f9 = 0x0
+GO: 2024/04/18 17:53:06 lib.go:34: #1: 0x7ffc2d5026fa = 0x0, 0x7ffc2d5026fb = 0x0
+GO: 2024/04/18 17:53:06 lib.go:44: Array pointer: 0x7ffc2d5026f8
+GO: 2024/04/18 17:53:26 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 17:53:26 lib.go:26: GetClassNames was called, returning: 0
+GO: 2024/04/18 17:53:26 lib.go:34: #0: 0x7ffc2d5026f8 = 0x30, 0x7ffc2d5026f9 = 0x0
+GO: 2024/04/18 17:53:26 lib.go:34: #1: 0x7ffc2d5026fa = 0x0, 0x7ffc2d5026fb = 0x0
+GO: 2024/04/18 17:53:26 lib.go:44: Array pointer: 0x7ffc2d5026f8
+GO: 2024/04/18 17:53:38 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 17:53:38 lib.go:26: GetClassNames was called, returning: 0
+GO: 2024/04/18 17:53:38 lib.go:34: #0: 0x7ffc2d5026f8 = 0x30, 0x7ffc2d5026f9 = 0x0
+GO: 2024/04/18 17:53:38 lib.go:34: #1: 0x7ffc2d5026fa = 0x0, 0x7ffc2d5026fb = 0x0
+GO: 2024/04/18 17:53:38 lib.go:44: Array pointer: 0x7ffc2d5026f8
+RS: 2024-04-18 12:53:48.198231 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:53:48.198363300 #0: 0x00007ffc62a9bda2 = 0x30, 0x00007ffc62a9bda3 = 0x00
+RS: 2024-04-18 12:53:48.198448500 #1: 0x00007ffc62a9bda4 = 0x00, 0x00007ffc62a9bda5 = 0x00
+RS: 2024-04-18 12:53:48.198973900 - - - - - - Platform is creating - - - - - -
+RS: 2024-04-18 12:54:36.718041 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:54:36.718213400 #0: 0x00007ffc62a9bda2 = 0x30, 0x00007ffc62a9bda3 = 0x00
+RS: 2024-04-18 12:54:36.718299 #1: 0x00007ffc62a9bda4 = 0x7C, 0x00007ffc62a9bda5 = 0x00
+RS: 2024-04-18 12:54:36.718373100 #2: 0x00007ffc62a9bda6 = 0x31, 0x00007ffc62a9bda7 = 0x00
+RS: 2024-04-18 12:54:36.718495900 #3: 0x00007ffc62a9bda8 = 0x00, 0x00007ffc62a9bda9 = 0x00
+RS: 2024-04-18 12:54:36.718873100 - - - - - - Platform is creating - - - - - -
+RS: 2024-04-18 12:54:36.719208900 - - - - - - Platform is creating - - - - - -
+RS: 2024-04-18 12:55:28.885678100 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:55:28.885828200 #0: 0x00007ffc62a9bda2 = 0x00, 0x00007ffc62a9bda3 = 0x00
+GO: 2024/04/18 17:56:34 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 17:56:34 lib.go:26: GetClassNames was called, returning: 0
+GO: 2024/04/18 17:56:34 lib.go:34: #0: 0x7ffc2d81a810 = 0x0, 0x7ffc2d81a811 = 0x0
+GO: 2024/04/18 17:56:34 lib.go:44: Array pointer: 0x7ffc2d81a810
+GO: 2024/04/18 17:57:25 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 17:57:25 lib.go:26: GetClassNames was called, returning: 0
+GO: 2024/04/18 17:57:25 lib.go:34: #0: 0x7ffc2d81a810 = 0x0, 0x7ffc2d81a811 = 0x0
+GO: 2024/04/18 17:57:25 lib.go:44: Array pointer: 0x7ffc2d81a810
+RS: 2024-04-18 12:58:31.979653300 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 12:58:31.979798400 #0: 0x00007ffc8392070a = 0x30, 0x00007ffc8392070b = 0x00
+RS: 2024-04-18 12:58:31.979874100 #1: 0x00007ffc8392070c = 0x00, 0x00007ffc8392070d = 0x00
+RS: 2024-04-18 12:58:31.980173100 - - - - - - Platform is creating - - - - - -
+GO: 2024/04/18 18:49:13 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 18:49:13 lib.go:26: GetClassNames was called, returning: 0
+GO: 2024/04/18 18:49:13 lib.go:34: #0: 0x7ffd86afa810 = 0x0, 0x7ffd86afa811 = 0x0
+GO: 2024/04/18 18:49:13 lib.go:44: Array pointer: 0x7ffd86afa810
+GO: 2024/04/18 18:50:08 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 18:50:08 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 18:50:08 lib.go:34: #0: 0x7ffd867e26f8 = 0x41, 0x7ffd867e26f9 = 0x0
+GO: 2024/04/18 18:50:08 lib.go:34: #1: 0x7ffd867e26fa = 0x0, 0x7ffd867e26fb = 0x0
+GO: 2024/04/18 18:50:08 lib.go:44: Array pointer: 0x7ffd867e26f8
+GO: 2024/04/18 18:50:08 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 18:50:08 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 18:50:08 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 18:50:08 logging.go:51: Creating AddIn in C
+GO: 2024/04/18 18:50:08 logging.go:51: Creating LanguageExtender in C
+GO: 2024/04/18 18:50:08 logging.go:51: Created LanguageExtender in C
+GO: 2024/04/18 18:50:08 logging.go:51: AddIn created in C
+GO: 2024/04/18 18:50:08 logging.go:51: Attempting to allocate memory before setting memory manager
+GO: 2024/04/18 18:50:08 logging.go:51: Memory was allocated successfully
+GO: 2024/04/18 18:50:08 logging.go:51: Memory manager was set
+GO: 2024/04/18 18:50:08 logging.go:51: Init function was called
+GO: 2024/04/18 18:50:08 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:50:08 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:50:08 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:50:08 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:50:08 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:50:08 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:50:08 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:50:08 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:50:08 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:50:08 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:50:08 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:50:08 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:50:08 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:50:08 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:50:08 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:50:08 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:50:08 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:50:08 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:51:59 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 18:51:59 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 18:51:59 lib.go:34: #0: 0x7ffd850726f8 = 0x41, 0x7ffd850726f9 = 0x0
+GO: 2024/04/18 18:51:59 lib.go:34: #1: 0x7ffd850726fa = 0x0, 0x7ffd850726fb = 0x0
+GO: 2024/04/18 18:51:59 lib.go:44: Array pointer: 0x7ffd850726f8
+GO: 2024/04/18 18:51:59 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 18:51:59 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 18:51:59 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 18:51:59 logging.go:51: Creating AddIn in C
+GO: 2024/04/18 18:51:59 logging.go:51: Creating LanguageExtender in C
+GO: 2024/04/18 18:51:59 logging.go:51: Created LanguageExtender in C
+GO: 2024/04/18 18:51:59 logging.go:51: AddIn created in C
+GO: 2024/04/18 18:51:59 logging.go:51: Attempting to allocate memory before setting memory manager
+GO: 2024/04/18 18:51:59 logging.go:51: Memory was allocated successfully
+GO: 2024/04/18 18:51:59 logging.go:51: Memory manager was set
+GO: 2024/04/18 18:51:59 logging.go:51: Init function was called
+GO: 2024/04/18 18:51:59 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:51:59 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:51:59 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:51:59 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:51:59 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:51:59 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:51:59 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:51:59 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:51:59 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:51:59 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:51:59 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:51:59 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:51:59 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:51:59 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:51:59 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:51:59 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:51:59 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:51:59 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:53:33 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 18:53:33 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 18:53:33 lib.go:34: #0: 0x7ffd850726f8 = 0x41, 0x7ffd850726f9 = 0x0
+GO: 2024/04/18 18:53:33 lib.go:34: #1: 0x7ffd850726fa = 0x0, 0x7ffd850726fb = 0x0
+GO: 2024/04/18 18:53:33 lib.go:44: Array pointer: 0x7ffd850726f8
+GO: 2024/04/18 18:53:33 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 18:53:33 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 18:53:33 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 18:53:33 logging.go:51: Creating AddIn in C
+GO: 2024/04/18 18:53:33 logging.go:51: Creating LanguageExtender in C
+GO: 2024/04/18 18:53:33 logging.go:51: Created LanguageExtender in C
+GO: 2024/04/18 18:53:33 logging.go:51: AddIn created in C
+GO: 2024/04/18 18:53:33 logging.go:51: Attempting to allocate memory before setting memory manager
+GO: 2024/04/18 18:53:33 logging.go:51: Memory was allocated successfully
+GO: 2024/04/18 18:53:33 logging.go:51: Memory manager was set
+GO: 2024/04/18 18:53:33 logging.go:51: Init function was called
+GO: 2024/04/18 18:53:33 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:53:33 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:53:33 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:53:33 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:53:33 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:53:33 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:53:33 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:53:33 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:53:33 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:53:33 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:53:33 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:53:33 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:53:33 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:53:33 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:53:33 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:53:33 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:53:33 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:53:33 platformtypes.go:18: Setting bool value
+GO: 2024/04/18 18:53:44 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 18:53:44 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 18:53:44 lib.go:34: #0: 0x7ffd850736f8 = 0x41, 0x7ffd850736f9 = 0x0
+GO: 2024/04/18 18:53:44 lib.go:34: #1: 0x7ffd850736fa = 0x0, 0x7ffd850736fb = 0x0
+GO: 2024/04/18 18:53:44 lib.go:44: Array pointer: 0x7ffd850736f8
+GO: 2024/04/18 18:53:45 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 18:53:45 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 18:53:45 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 18:53:45 logging.go:51: Creating AddIn in C
+GO: 2024/04/18 18:53:45 logging.go:51: Creating LanguageExtender in C
+GO: 2024/04/18 18:53:45 logging.go:51: Created LanguageExtender in C
+GO: 2024/04/18 18:53:45 logging.go:51: AddIn created in C
+GO: 2024/04/18 18:53:45 logging.go:51: Attempting to allocate memory before setting memory manager
+GO: 2024/04/18 18:53:45 logging.go:51: Memory was allocated successfully
+GO: 2024/04/18 18:53:45 logging.go:51: Memory manager was set
+GO: 2024/04/18 18:53:45 logging.go:51: Init function was called
+GO: 2024/04/18 18:53:45 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:53:45 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:53:45 platformtypes.go:55: Setting string value Hello, world! for component at &{0x1b07d462190 0x1b07d462220 0x1b07d462240 0x1b07d18b1e0 0x1b07d460101 false 0xc00000a980 0xc000084000}
+GO: 2024/04/18 18:53:45 platformtypes.go:58: WChar length: 14
+GO: 2024/04/18 18:53:45 platformtypes.go:59: Target length: 28
+GO: 2024/04/18 18:53:45 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:53:45 platformtypes.go:63: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:53:45 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:53:45 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:53:45 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:53:45 platformtypes.go:55: Setting string value Hello, world! for component at &{0x1b07d462190 0x1b07d462220 0x1b07d462240 0x1b07d18b1e0 0x1b07d460101 false 0xc00000a980 0xc000084000}
+GO: 2024/04/18 18:53:45 platformtypes.go:58: WChar length: 14
+GO: 2024/04/18 18:53:45 platformtypes.go:59: Target length: 28
+GO: 2024/04/18 18:53:45 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:53:45 platformtypes.go:63: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:53:45 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:53:45 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:53:45 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:53:45 platformtypes.go:55: Setting string value Hello, world! for component at &{0x1b07d462190 0x1b07d462220 0x1b07d462240 0x1b07d18b1e0 0x1b07d460101 false 0xc00000a980 0xc000084000}
+GO: 2024/04/18 18:53:45 platformtypes.go:58: WChar length: 14
+GO: 2024/04/18 18:53:45 platformtypes.go:59: Target length: 28
+GO: 2024/04/18 18:53:45 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:53:45 platformtypes.go:63: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:53:45 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:53:45 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:53:45 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:53:45 platformtypes.go:55: Setting string value Hello, world! for component at &{0x1b07d462190 0x1b07d462220 0x1b07d462240 0x1b07d18b1e0 0x1b07d460101 false 0xc00000a980 0xc000084000}
+GO: 2024/04/18 18:53:45 platformtypes.go:58: WChar length: 14
+GO: 2024/04/18 18:53:45 platformtypes.go:59: Target length: 28
+GO: 2024/04/18 18:53:45 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:53:45 platformtypes.go:63: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:53:45 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:53:45 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:53:45 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:53:45 platformtypes.go:55: Setting string value Hello, world! for component at &{0x1b07d462190 0x1b07d462220 0x1b07d462240 0x1b07d18b1e0 0x1b07d460101 false 0xc00000a980 0xc000084000}
+GO: 2024/04/18 18:53:45 platformtypes.go:58: WChar length: 14
+GO: 2024/04/18 18:53:45 platformtypes.go:59: Target length: 28
+GO: 2024/04/18 18:53:45 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:53:45 platformtypes.go:63: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:53:45 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:53:45 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:53:45 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:53:45 platformtypes.go:55: Setting string value Hello, world! for component at &{0x1b07d462190 0x1b07d462220 0x1b07d462240 0x1b07d18b1e0 0x1b07d460101 false 0xc00000a980 0xc000084000}
+GO: 2024/04/18 18:53:45 platformtypes.go:58: WChar length: 14
+GO: 2024/04/18 18:53:45 platformtypes.go:59: Target length: 28
+GO: 2024/04/18 18:53:45 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:53:45 platformtypes.go:63: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:53:45 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:56:53 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 18:56:53 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 18:56:53 lib.go:34: #0: 0x7ffd850736f8 = 0x41, 0x7ffd850736f9 = 0x0
+GO: 2024/04/18 18:56:53 lib.go:34: #1: 0x7ffd850736fa = 0x0, 0x7ffd850736fb = 0x0
+GO: 2024/04/18 18:56:53 lib.go:44: Array pointer: 0x7ffd850736f8
+GO: 2024/04/18 18:56:53 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 18:56:53 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 18:56:53 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 18:56:53 logging.go:51: Creating AddIn in C
+GO: 2024/04/18 18:56:53 logging.go:51: Creating LanguageExtender in C
+GO: 2024/04/18 18:56:53 logging.go:51: Created LanguageExtender in C
+GO: 2024/04/18 18:56:53 logging.go:51: AddIn created in C
+GO: 2024/04/18 18:56:53 logging.go:51: Attempting to allocate memory before setting memory manager
+GO: 2024/04/18 18:56:53 logging.go:51: Memory was allocated successfully
+GO: 2024/04/18 18:56:53 logging.go:51: Memory manager was set
+GO: 2024/04/18 18:56:53 logging.go:51: Init function was called
+GO: 2024/04/18 18:56:53 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:56:53 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:56:53 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:56:53 logging.go:56: Pointer: &[]
+GO: 2024/04/18 18:56:53 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:56:53 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:56:53 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:56:53 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:56:53 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:56:53 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:56:53 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:56:53 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:56:53 logging.go:56: Pointer: &[]
+GO: 2024/04/18 18:56:53 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:56:53 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:56:53 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:56:53 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:56:53 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:56:53 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:56:53 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:56:53 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:56:53 logging.go:56: Pointer: &[]
+GO: 2024/04/18 18:56:53 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:56:53 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:56:53 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:56:53 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:56:53 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:56:53 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:56:53 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:56:53 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:56:53 logging.go:56: Pointer: &[]
+GO: 2024/04/18 18:56:53 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:56:53 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:56:53 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:56:53 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:56:53 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:56:53 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:56:53 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:56:53 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:56:53 logging.go:56: Pointer: &[]
+GO: 2024/04/18 18:56:53 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:56:53 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:56:53 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:56:53 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:56:53 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:56:53 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:56:53 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:56:53 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:56:53 logging.go:56: Pointer: &[]
+GO: 2024/04/18 18:56:53 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:56:53 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:56:53 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:56:53 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:56:53 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:57:29 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 18:57:29 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 18:57:29 lib.go:34: #0: 0x7ffd84e536f8 = 0x41, 0x7ffd84e536f9 = 0x0
+GO: 2024/04/18 18:57:29 lib.go:34: #1: 0x7ffd84e536fa = 0x0, 0x7ffd84e536fb = 0x0
+GO: 2024/04/18 18:57:29 lib.go:44: Array pointer: 0x7ffd84e536f8
+GO: 2024/04/18 18:57:29 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 18:57:29 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 18:57:29 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 18:57:29 logging.go:51: Creating AddIn in C
+GO: 2024/04/18 18:57:29 logging.go:51: Creating LanguageExtender in C
+GO: 2024/04/18 18:57:29 logging.go:51: Created LanguageExtender in C
+GO: 2024/04/18 18:57:29 logging.go:51: AddIn created in C
+GO: 2024/04/18 18:57:29 logging.go:51: Attempting to allocate memory before setting memory manager
+GO: 2024/04/18 18:57:29 logging.go:51: Memory was allocated successfully
+GO: 2024/04/18 18:57:29 logging.go:51: Memory manager was set
+GO: 2024/04/18 18:57:29 logging.go:51: Init function was called
+GO: 2024/04/18 18:57:29 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:57:29 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:57:29 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:57:29 logging.go:56: Pointer: &[]
+GO: 2024/04/18 18:57:29 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:57:29 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:57:29 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:57:29 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:57:29 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:57:29 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:57:29 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:57:29 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:57:29 logging.go:56: Pointer: &[]
+GO: 2024/04/18 18:57:29 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:57:29 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:57:29 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:57:29 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:57:29 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:57:29 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:57:29 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:57:29 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:57:29 logging.go:56: Pointer: &[]
+GO: 2024/04/18 18:57:29 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:57:29 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:57:29 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:57:29 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:57:29 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:57:29 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:57:29 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:57:29 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:57:29 logging.go:56: Pointer: &[]
+GO: 2024/04/18 18:57:29 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:57:29 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:57:29 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:57:29 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:57:29 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:57:29 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:57:29 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:57:29 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:57:29 logging.go:56: Pointer: &[]
+GO: 2024/04/18 18:57:29 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:57:29 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:57:29 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:57:29 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:57:29 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:57:29 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:57:29 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:57:29 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:57:29 logging.go:56: Pointer: &[]
+GO: 2024/04/18 18:57:29 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:57:29 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:57:29 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:57:29 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:57:29 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:57:41 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 18:57:41 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 18:57:41 lib.go:34: #0: 0x7ffd850736f8 = 0x41, 0x7ffd850736f9 = 0x0
+GO: 2024/04/18 18:57:41 lib.go:34: #1: 0x7ffd850736fa = 0x0, 0x7ffd850736fb = 0x0
+GO: 2024/04/18 18:57:41 lib.go:44: Array pointer: 0x7ffd850736f8
+GO: 2024/04/18 18:57:41 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 18:57:41 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 18:57:41 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 18:57:41 logging.go:51: Creating AddIn in C
+GO: 2024/04/18 18:57:41 logging.go:51: Creating LanguageExtender in C
+GO: 2024/04/18 18:57:41 logging.go:51: Created LanguageExtender in C
+GO: 2024/04/18 18:57:41 logging.go:51: AddIn created in C
+GO: 2024/04/18 18:57:41 logging.go:51: Attempting to allocate memory before setting memory manager
+GO: 2024/04/18 18:57:41 logging.go:51: Memory was allocated successfully
+GO: 2024/04/18 18:57:41 logging.go:51: Memory manager was set
+GO: 2024/04/18 18:57:41 logging.go:51: Init function was called
+GO: 2024/04/18 18:57:41 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:57:41 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:57:41 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:57:41 logging.go:56: Pointer: 0xc00009e000
+GO: 2024/04/18 18:57:41 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:57:41 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:57:41 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:57:41 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:57:41 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:57:41 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:57:41 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:57:41 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:57:41 logging.go:56: Pointer: 0xc00009e010
+GO: 2024/04/18 18:57:41 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:57:41 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:57:41 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:57:41 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:57:41 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:57:41 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:57:41 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:57:41 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:57:41 logging.go:56: Pointer: 0xc00009e020
+GO: 2024/04/18 18:57:41 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:57:41 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:57:41 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:57:41 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:57:41 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:57:41 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:57:41 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:57:41 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:57:41 logging.go:56: Pointer: 0xc00009e030
+GO: 2024/04/18 18:57:41 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:57:41 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:57:41 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:57:41 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:57:41 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:57:41 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:57:41 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:57:41 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:57:41 logging.go:56: Pointer: 0xc00009e040
+GO: 2024/04/18 18:57:41 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:57:41 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:57:41 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:57:41 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:57:41 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:57:41 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:57:41 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:57:41 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:57:41 logging.go:56: Pointer: 0xc00009e050
+GO: 2024/04/18 18:57:41 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:57:41 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:57:41 logging.go:51: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:57:41 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:57:41 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:58:20 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 18:58:20 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 18:58:20 lib.go:34: #0: 0x7ffd68b136f8 = 0x41, 0x7ffd68b136f9 = 0x0
+GO: 2024/04/18 18:58:20 lib.go:34: #1: 0x7ffd68b136fa = 0x0, 0x7ffd68b136fb = 0x0
+GO: 2024/04/18 18:58:20 lib.go:44: Array pointer: 0x7ffd68b136f8
+GO: 2024/04/18 18:58:20 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 18:58:20 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 18:58:20 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 18:58:20 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 18:58:20 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 18:58:20 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 18:58:20 logging.go:52: AddIn created in C
+GO: 2024/04/18 18:58:20 logging.go:52: Attempting to allocate memory before setting memory manager
+GO: 2024/04/18 18:58:20 logging.go:52: Memory was allocated successfully
+GO: 2024/04/18 18:58:20 logging.go:52: Memory manager was set
+GO: 2024/04/18 18:58:20 logging.go:52: Init function was called
+GO: 2024/04/18 18:58:20 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:58:20 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:58:20 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:58:20 logging.go:57: Pointer: 0x26a59567e88
+GO: 2024/04/18 18:58:20 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:58:20 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:58:20 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:58:20 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:58:20 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:58:20 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:58:20 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:58:20 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:58:20 logging.go:57: Pointer: 0x26a59567e88
+GO: 2024/04/18 18:58:20 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:58:20 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:58:20 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:58:20 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:58:20 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:58:20 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:58:20 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:58:20 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:58:20 logging.go:57: Pointer: 0x26a59567e88
+GO: 2024/04/18 18:58:20 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:58:20 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:58:20 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:58:20 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:58:20 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:58:20 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:58:20 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:58:20 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:58:20 logging.go:57: Pointer: 0x26a59567e88
+GO: 2024/04/18 18:58:20 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:58:20 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:58:20 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:58:20 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:58:20 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:58:20 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:58:20 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:58:20 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:58:20 logging.go:57: Pointer: 0x26a59567e88
+GO: 2024/04/18 18:58:20 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:58:20 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:58:20 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:58:20 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:58:20 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:58:20 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:58:20 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:58:20 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:58:20 logging.go:57: Pointer: 0x26a59567e88
+GO: 2024/04/18 18:58:20 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:58:20 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:58:20 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:58:20 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:58:20 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:59:07 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 18:59:07 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 18:59:07 lib.go:34: #0: 0x7ffd68b136f8 = 0x41, 0x7ffd68b136f9 = 0x0
+GO: 2024/04/18 18:59:07 lib.go:34: #1: 0x7ffd68b136fa = 0x0, 0x7ffd68b136fb = 0x0
+GO: 2024/04/18 18:59:07 lib.go:44: Array pointer: 0x7ffd68b136f8
+GO: 2024/04/18 18:59:07 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 18:59:07 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 18:59:07 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 18:59:07 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 18:59:07 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 18:59:07 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 18:59:07 logging.go:52: AddIn created in C
+GO: 2024/04/18 18:59:07 logging.go:52: Attempting to allocate memory before setting memory manager
+GO: 2024/04/18 18:59:07 logging.go:52: Memory was allocated successfully
+GO: 2024/04/18 18:59:07 logging.go:52: Memory manager was set
+GO: 2024/04/18 18:59:07 logging.go:52: Init function was called
+GO: 2024/04/18 18:59:07 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:59:07 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:59:07 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:59:07 logging.go:57: Pointer: 0x276ceb62118
+GO: 2024/04/18 18:59:07 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:59:07 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:59:16 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 18:59:16 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 18:59:16 lib.go:34: #0: 0x7ffd68b136f8 = 0x41, 0x7ffd68b136f9 = 0x0
+GO: 2024/04/18 18:59:16 lib.go:34: #1: 0x7ffd68b136fa = 0x0, 0x7ffd68b136fb = 0x0
+GO: 2024/04/18 18:59:16 lib.go:44: Array pointer: 0x7ffd68b136f8
+GO: 2024/04/18 18:59:16 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 18:59:16 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 18:59:16 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 18:59:16 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 18:59:16 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 18:59:16 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 18:59:16 logging.go:52: AddIn created in C
+GO: 2024/04/18 18:59:16 logging.go:52: Attempting to allocate memory before setting memory manager
+GO: 2024/04/18 18:59:16 logging.go:52: Pointer for AddIn: 
+GO: 2024/04/18 18:59:16 logging.go:57: Pointer: 0x23641846f80
+GO: 2024/04/18 18:59:16 logging.go:52: Memory was allocated successfully
+GO: 2024/04/18 18:59:16 logging.go:52: Memory manager was set
+GO: 2024/04/18 18:59:16 logging.go:52: Init function was called
+GO: 2024/04/18 18:59:16 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:59:16 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:59:16 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:59:16 logging.go:57: Pointer: 0x23641846f88
+GO: 2024/04/18 18:59:16 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:59:16 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:59:16 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:59:16 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:59:16 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:59:16 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 18:59:16 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:59:16 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:59:16 logging.go:57: Pointer: 0x23641846f88
+GO: 2024/04/18 18:59:16 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:59:16 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:59:16 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:59:16 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:59:16 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:59:16 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:59:16 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:59:16 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:59:16 logging.go:57: Pointer: 0x23641846f88
+GO: 2024/04/18 18:59:16 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:59:16 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:59:16 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:59:16 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:59:16 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:59:16 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 18:59:16 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:59:16 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:59:16 logging.go:57: Pointer: 0x23641846f88
+GO: 2024/04/18 18:59:16 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:59:16 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:59:16 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:59:16 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:59:16 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:59:16 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:59:16 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:59:16 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:59:16 logging.go:57: Pointer: 0x23641846f88
+GO: 2024/04/18 18:59:16 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:59:16 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:59:16 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:59:16 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:59:16 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 18:59:16 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 18:59:16 component.go:95: Getting property value for index 0
+GO: 2024/04/18 18:59:16 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 18:59:16 logging.go:57: Pointer: 0x23641846f88
+GO: 2024/04/18 18:59:16 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 18:59:16 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 18:59:16 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 18:59:16 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 18:59:16 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 19:01:58 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 19:01:58 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 19:01:58 lib.go:34: #0: 0x7ffd68b136f8 = 0x41, 0x7ffd68b136f9 = 0x0
+GO: 2024/04/18 19:01:58 lib.go:34: #1: 0x7ffd68b136fa = 0x0, 0x7ffd68b136fb = 0x0
+GO: 2024/04/18 19:01:58 lib.go:44: Array pointer: 0x7ffd68b136f8
+GO: 2024/04/18 19:01:58 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 19:01:58 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 19:01:58 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 19:01:58 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 19:01:58 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 19:01:58 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 19:01:58 logging.go:52: AddIn created in C
+GO: 2024/04/18 19:01:58 logging.go:52: Attempting to allocate memory before setting memory manager
+GO: 2024/04/18 19:01:58 logging.go:52: Pointer for AddIn: 
+GO: 2024/04/18 19:01:58 logging.go:57: Pointer: 0x1fb91d32110
+GO: 2024/04/18 19:01:58 logging.go:52: Memory was allocated successfully
+GO: 2024/04/18 19:01:58 logging.go:52: Memory manager was set
+GO: 2024/04/18 19:01:58 logging.go:52: Init function was called
+GO: 2024/04/18 19:01:58 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 19:01:58 component.go:95: Getting property value for index 0
+GO: 2024/04/18 19:01:58 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 19:01:58 logging.go:57: Pointer: 0x1fb91d32118
+GO: 2024/04/18 19:01:58 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 19:01:58 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 19:02:31 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 19:02:31 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 19:02:31 lib.go:34: #0: 0x7ffd68b136f8 = 0x41, 0x7ffd68b136f9 = 0x0
+GO: 2024/04/18 19:02:31 lib.go:34: #1: 0x7ffd68b136fa = 0x0, 0x7ffd68b136fb = 0x0
+GO: 2024/04/18 19:02:31 lib.go:44: Array pointer: 0x7ffd68b136f8
+GO: 2024/04/18 19:02:31 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 19:02:31 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 19:02:31 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 19:02:31 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 19:02:31 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 19:02:31 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 19:02:31 logging.go:52: AddIn created in C
+GO: 2024/04/18 19:02:31 logging.go:52: Attempting to allocate memory before setting memory manager
+GO: 2024/04/18 19:02:31 logging.go:52: Pointer for AddIn: 
+GO: 2024/04/18 19:02:31 logging.go:57: Pointer: 0x1fc91a16f80
+GO: 2024/04/18 19:02:31 logging.go:52: Memory was allocated successfully
+GO: 2024/04/18 19:02:31 logging.go:52: Memory manager was set
+GO: 2024/04/18 19:02:31 logging.go:52: Init function was called
+GO: 2024/04/18 19:02:31 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 19:02:31 component.go:95: Getting property value for index 0
+GO: 2024/04/18 19:02:31 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 19:02:31 logging.go:57: Pointer: 0x1fc91a16f88
+GO: 2024/04/18 19:02:31 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 19:02:31 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 19:02:31 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 19:02:31 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 19:02:31 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 19:02:31 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 19:02:31 component.go:95: Getting property value for index 0
+GO: 2024/04/18 19:02:31 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 19:02:31 logging.go:57: Pointer: 0x1fc91a16f88
+GO: 2024/04/18 19:02:31 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 19:02:31 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 19:02:31 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 19:02:31 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 19:02:31 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 19:02:31 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 19:02:31 component.go:95: Getting property value for index 0
+GO: 2024/04/18 19:02:31 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 19:02:31 logging.go:57: Pointer: 0x1fc91a16f88
+GO: 2024/04/18 19:02:31 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 19:02:31 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 19:02:31 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 19:02:31 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 19:02:31 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 21:42:59 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 21:42:59 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 21:42:59 lib.go:34: #0: 0x7ffd4f2336f8 = 0x41, 0x7ffd4f2336f9 = 0x0
+GO: 2024/04/18 21:42:59 lib.go:34: #1: 0x7ffd4f2336fa = 0x0, 0x7ffd4f2336fb = 0x0
+GO: 2024/04/18 21:42:59 lib.go:44: Array pointer: 0x7ffd4f2336f8
+GO: 2024/04/18 21:42:59 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 21:42:59 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 21:42:59 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 21:42:59 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 21:42:59 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 21:42:59 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 21:42:59 logging.go:52: AddIn created in C
+GO: 2024/04/18 21:42:59 logging.go:52: Attempting to allocate memory before setting memory manager
+GO: 2024/04/18 21:42:59 logging.go:52: Pointer for AddIn: 
+GO: 2024/04/18 21:42:59 logging.go:57: Pointer: 0x249e1ec2110
+GO: 2024/04/18 21:42:59 logging.go:52: Memory was allocated successfully
+GO: 2024/04/18 21:42:59 logging.go:52: Memory manager was set
+GO: 2024/04/18 21:42:59 logging.go:52: Init function was called
+GO: 2024/04/18 21:42:59 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 21:42:59 component.go:95: Getting property value for index 0
+GO: 2024/04/18 21:42:59 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 21:42:59 logging.go:57: Pointer: 0x249e1ec2118
+GO: 2024/04/18 21:42:59 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 21:42:59 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 21:43:33 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 21:43:33 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 21:43:33 lib.go:34: #0: 0x7ffd4f2336f8 = 0x41, 0x7ffd4f2336f9 = 0x0
+GO: 2024/04/18 21:43:33 lib.go:34: #1: 0x7ffd4f2336fa = 0x0, 0x7ffd4f2336fb = 0x0
+GO: 2024/04/18 21:43:33 lib.go:44: Array pointer: 0x7ffd4f2336f8
+GO: 2024/04/18 21:43:33 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 21:43:33 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 21:43:33 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 21:43:33 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 21:43:33 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 21:43:33 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 21:43:33 logging.go:52: AddIn created in C
+GO: 2024/04/18 21:43:33 logging.go:52: Attempting to allocate memory before setting memory manager
+GO: 2024/04/18 21:43:33 logging.go:52: Pointer for AddIn: 
+GO: 2024/04/18 21:43:33 logging.go:57: Pointer: 0x23a30b02110
+GO: 2024/04/18 21:43:33 logging.go:52: Memory was allocated successfully
+GO: 2024/04/18 21:43:33 logging.go:52: Memory manager was set
+GO: 2024/04/18 21:43:33 logging.go:52: Init function was called
+GO: 2024/04/18 21:43:33 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 21:43:33 component.go:95: Getting property value for index 0
+GO: 2024/04/18 21:43:33 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 21:43:33 logging.go:57: Pointer: 0x23a30b02118
+GO: 2024/04/18 21:43:33 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 21:43:33 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 21:43:33 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 21:43:33 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 21:43:33 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 21:43:33 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 21:43:33 component.go:95: Getting property value for index 0
+GO: 2024/04/18 21:43:33 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 21:43:33 logging.go:57: Pointer: 0x23a30b02118
+GO: 2024/04/18 21:43:33 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 21:43:33 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 21:43:33 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 21:43:33 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 21:43:33 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 21:43:33 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 21:43:33 component.go:95: Getting property value for index 0
+GO: 2024/04/18 21:43:33 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 21:43:33 logging.go:57: Pointer: 0x23a30b02118
+GO: 2024/04/18 21:43:33 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 21:43:33 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 21:43:33 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 21:43:33 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 21:43:33 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 21:45:38 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 21:45:38 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 21:45:38 lib.go:34: #0: 0x7ffd4f2336f8 = 0x41, 0x7ffd4f2336f9 = 0x0
+GO: 2024/04/18 21:45:38 lib.go:34: #1: 0x7ffd4f2336fa = 0x0, 0x7ffd4f2336fb = 0x0
+GO: 2024/04/18 21:45:38 lib.go:44: Array pointer: 0x7ffd4f2336f8
+GO: 2024/04/18 21:45:38 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 21:45:38 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 21:45:38 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 21:45:38 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 21:45:38 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 21:45:38 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 21:45:38 logging.go:52: AddIn created in C
+GO: 2024/04/18 21:45:38 logging.go:52: Attempting to allocate memory before setting memory manager
+GO: 2024/04/18 21:45:38 logging.go:52: Pointer for AddIn: 
+GO: 2024/04/18 21:45:38 logging.go:57: Pointer: 0x23e20a52110
+GO: 2024/04/18 21:45:38 logging.go:52: Memory was allocated successfully
+GO: 2024/04/18 21:45:38 logging.go:52: Memory manager was set
+GO: 2024/04/18 21:45:38 logging.go:52: Init function was called
+GO: 2024/04/18 21:45:38 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 21:45:38 component.go:95: Getting property value for index 0
+GO: 2024/04/18 21:45:38 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 21:45:38 logging.go:57: Pointer: 0x23e20a52118
+GO: 2024/04/18 21:45:38 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 21:45:38 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 21:45:38 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 21:45:38 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 21:45:38 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 21:45:38 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 21:45:38 component.go:95: Getting property value for index 0
+GO: 2024/04/18 21:45:38 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 21:45:38 logging.go:57: Pointer: 0x23e20a52118
+GO: 2024/04/18 21:45:38 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 21:45:38 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 21:45:38 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 21:45:38 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 21:45:38 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 21:45:38 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 21:45:38 component.go:95: Getting property value for index 0
+GO: 2024/04/18 21:45:38 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 21:45:38 logging.go:57: Pointer: 0x23e20a52118
+GO: 2024/04/18 21:45:38 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 21:45:38 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 21:45:38 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 21:45:38 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 21:45:38 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 21:52:26 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 21:52:26 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 21:52:26 lib.go:34: #0: 0x7ffd4f2336f8 = 0x41, 0x7ffd4f2336f9 = 0x0
+GO: 2024/04/18 21:52:26 lib.go:34: #1: 0x7ffd4f2336fa = 0x0, 0x7ffd4f2336fb = 0x0
+GO: 2024/04/18 21:52:26 lib.go:44: Array pointer: 0x7ffd4f2336f8
+GO: 2024/04/18 21:52:26 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 21:52:26 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 21:52:26 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 21:52:26 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 21:52:26 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 21:52:26 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 21:52:26 logging.go:52: AddIn created in C
+GO: 2024/04/18 21:52:26 logging.go:52: Setting memory manager
+GO: 2024/04/18 21:52:26 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 21:52:26 logging.go:57: Pointer: 0x21f53012110
+GO: 2024/04/18 21:52:26 logging.go:52: Memory manager was set
+GO: 2024/04/18 21:52:26 logging.go:52: Pointer to memory manager in AddIn:
+GO: 2024/04/18 21:52:26 logging.go:57: Pointer: 0x21f53012130
+GO: 2024/04/18 21:52:26 logging.go:52: Init function was called
+GO: 2024/04/18 21:52:26 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 21:52:26 component.go:95: Getting property value for index 0
+GO: 2024/04/18 21:52:26 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 21:52:26 logging.go:57: Pointer: 0x21f53012118
+GO: 2024/04/18 21:52:26 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 21:52:26 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 21:52:59 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 21:52:59 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 21:52:59 lib.go:34: #0: 0x7ffd4f2336f8 = 0x41, 0x7ffd4f2336f9 = 0x0
+GO: 2024/04/18 21:52:59 lib.go:34: #1: 0x7ffd4f2336fa = 0x0, 0x7ffd4f2336fb = 0x0
+GO: 2024/04/18 21:52:59 lib.go:44: Array pointer: 0x7ffd4f2336f8
+GO: 2024/04/18 21:53:00 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 21:53:00 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 21:53:00 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 21:53:00 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 21:53:00 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 21:53:00 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 21:53:00 logging.go:52: AddIn created in C
+GO: 2024/04/18 21:53:00 logging.go:52: Setting memory manager
+GO: 2024/04/18 21:53:00 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 21:53:00 logging.go:57: Pointer: 0x1f68bd07e80
+GO: 2024/04/18 21:53:00 logging.go:52: Memory manager was set
+GO: 2024/04/18 21:53:00 logging.go:52: Pointer to memory manager in AddIn:
+GO: 2024/04/18 21:53:00 logging.go:57: Pointer: 0x1f68bd07ea0
+GO: 2024/04/18 21:53:00 logging.go:52: Init function was called
+GO: 2024/04/18 21:53:00 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 21:53:00 component.go:95: Getting property value for index 0
+GO: 2024/04/18 21:53:00 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 21:53:00 logging.go:57: Pointer: 0x1f68bd07e88
+GO: 2024/04/18 21:53:00 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 21:53:00 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 21:53:00 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 21:53:00 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 21:53:00 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 21:53:00 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 21:53:00 component.go:95: Getting property value for index 0
+GO: 2024/04/18 21:53:00 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 21:53:00 logging.go:57: Pointer: 0x1f68bd07e88
+GO: 2024/04/18 21:53:00 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 21:53:00 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 21:53:00 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 21:53:00 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 21:53:00 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 21:53:00 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 21:53:00 component.go:95: Getting property value for index 0
+GO: 2024/04/18 21:53:00 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 21:53:00 logging.go:57: Pointer: 0x1f68bd07e88
+GO: 2024/04/18 21:53:00 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 21:53:00 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 21:53:00 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 21:53:00 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 21:53:00 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 21:53:09 lib.go:25: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 21:53:09 lib.go:26: GetClassNames was called, returning: A
+GO: 2024/04/18 21:53:09 lib.go:34: #0: 0x7ffd4f2336f8 = 0x41, 0x7ffd4f2336f9 = 0x0
+GO: 2024/04/18 21:53:09 lib.go:34: #1: 0x7ffd4f2336fa = 0x0, 0x7ffd4f2336fb = 0x0
+GO: 2024/04/18 21:53:09 lib.go:44: Array pointer: 0x7ffd4f2336f8
+GO: 2024/04/18 21:53:09 lib.go:50: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 21:53:09 lib.go:52: GetClassObject was called, className: A
+GO: 2024/04/18 21:53:09 lib.go:57: Matched class A, creating component A
+GO: 2024/04/18 21:53:09 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 21:53:09 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 21:53:09 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 21:53:09 logging.go:52: AddIn created in C
+GO: 2024/04/18 21:53:09 logging.go:52: Setting memory manager
+GO: 2024/04/18 21:53:09 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 21:53:09 logging.go:57: Pointer: 0x1e9a8a61e20
+GO: 2024/04/18 21:53:09 logging.go:52: Memory manager was set
+GO: 2024/04/18 21:53:09 logging.go:52: Pointer to language extender: 
+GO: 2024/04/18 21:53:09 logging.go:57: Pointer: 0x1e9a8a61e28
+GO: 2024/04/18 21:53:09 logging.go:52: Init function was called
+GO: 2024/04/18 21:53:09 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 21:53:09 component.go:95: Getting property value for index 0
+GO: 2024/04/18 21:53:09 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 21:53:09 logging.go:57: Pointer: 0x1e9a8a61e28
+GO: 2024/04/18 21:53:09 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 21:53:09 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 21:53:09 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 21:53:09 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 21:53:09 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 21:53:09 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 21:53:09 component.go:95: Getting property value for index 0
+GO: 2024/04/18 21:53:09 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 21:53:09 logging.go:57: Pointer: 0x1e9a8a61e28
+GO: 2024/04/18 21:53:09 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 21:53:09 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 21:53:09 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 21:53:09 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 21:53:09 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 21:53:09 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 21:53:09 component.go:95: Getting property value for index 0
+GO: 2024/04/18 21:53:09 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 21:53:09 logging.go:57: Pointer: 0x1e9a8a61e28
+GO: 2024/04/18 21:53:09 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 21:53:09 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 21:53:09 logging.go:52: Memory manager is not set when trying to allocate memory
+GO: 2024/04/18 21:53:09 platformtypes.go:64: Failed to allocate memory: memory allocation failed
+GO: 2024/04/18 21:53:09 component.go:98: Failed to set string value: memory allocation failed
+GO: 2024/04/18 22:05:16 lib.go:32: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 22:05:16 lib.go:33: GetClassNames was called, returning: A
+GO: 2024/04/18 22:05:16 lib.go:41: #0: 0x7ffd4e5136f8 = 0x41, 0x7ffd4e5136f9 = 0x0
+GO: 2024/04/18 22:05:16 lib.go:41: #1: 0x7ffd4e5136fa = 0x0, 0x7ffd4e5136fb = 0x0
+GO: 2024/04/18 22:05:16 lib.go:51: Array pointer: 0x7ffd4e5136f8
+GO: 2024/04/18 22:05:16 lib.go:57: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 22:05:16 lib.go:59: GetClassObject was called, className: A
+GO: 2024/04/18 22:05:16 lib.go:64: Matched class A, creating component A
+GO: 2024/04/18 22:05:16 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 22:05:16 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 22:05:16 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 22:05:16 logging.go:52: AddIn created in C
+GO: 2024/04/18 22:05:16 logging.go:52: Setting memory manager
+GO: 2024/04/18 22:05:16 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 22:05:16 logging.go:57: Pointer: 0x272d3b17e80
+GO: 2024/04/18 22:05:16 logging.go:52: Memory manager was set
+GO: 2024/04/18 22:05:16 logging.go:52: Init function was called
+GO: 2024/04/18 22:05:16 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 22:05:16 component.go:95: Getting property value for index 0
+GO: 2024/04/18 22:05:16 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:05:16 logging.go:57: Pointer: 0x272d3b17e78
+GO: 2024/04/18 22:05:16 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 22:05:16 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 22:06:54 lib.go:32: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 22:06:54 lib.go:33: GetClassNames was called, returning: A
+GO: 2024/04/18 22:06:54 lib.go:41: #0: 0x7ffd4e5136f8 = 0x41, 0x7ffd4e5136f9 = 0x0
+GO: 2024/04/18 22:06:54 lib.go:41: #1: 0x7ffd4e5136fa = 0x0, 0x7ffd4e5136fb = 0x0
+GO: 2024/04/18 22:06:54 lib.go:51: Array pointer: 0x7ffd4e5136f8
+GO: 2024/04/18 22:06:54 lib.go:57: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 22:06:54 lib.go:59: GetClassObject was called, className: A
+GO: 2024/04/18 22:06:54 lib.go:64: Matched class A, creating component A
+GO: 2024/04/18 22:06:54 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 22:06:54 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 22:06:54 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 22:06:54 logging.go:52: AddIn created in C
+GO: 2024/04/18 22:06:54 logging.go:52: Setting memory manager
+GO: 2024/04/18 22:06:54 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 22:06:54 logging.go:57: Pointer: 0x1e808652110
+GO: 2024/04/18 22:06:54 logging.go:52: Memory manager was set
+GO: 2024/04/18 22:06:54 logging.go:52: Init function was called
+GO: 2024/04/18 22:06:54 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 22:06:54 component.go:95: Getting property value for index 0
+GO: 2024/04/18 22:06:54 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:06:54 logging.go:57: Pointer: 0x1e808652108
+GO: 2024/04/18 22:06:54 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 22:06:54 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 22:07:06 lib.go:39: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 22:07:06 lib.go:40: GetClassNames was called, returning: A
+GO: 2024/04/18 22:07:06 lib.go:48: #0: 0x7ffd4e5136f8 = 0x41, 0x7ffd4e5136f9 = 0x0
+GO: 2024/04/18 22:07:06 lib.go:48: #1: 0x7ffd4e5136fa = 0x0, 0x7ffd4e5136fb = 0x0
+GO: 2024/04/18 22:07:06 lib.go:58: Array pointer: 0x7ffd4e5136f8
+GO: 2024/04/18 22:07:06 lib.go:64: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 22:07:06 lib.go:66: GetClassObject was called, className: A
+GO: 2024/04/18 22:07:06 lib.go:71: Matched class A, creating component A
+GO: 2024/04/18 22:07:06 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 22:07:06 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 22:07:06 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 22:07:06 logging.go:52: AddIn created in C
+GO: 2024/04/18 22:07:06 logging.go:52: Setting memory manager
+GO: 2024/04/18 22:07:06 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 22:07:06 logging.go:57: Pointer: 0x1df91f92110
+GO: 2024/04/18 22:07:06 logging.go:52: Memory manager was set
+GO: 2024/04/18 22:07:06 logging.go:52: Init function was called
+GO: 2024/04/18 22:07:06 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 22:07:06 component.go:95: Getting property value for index 0
+GO: 2024/04/18 22:07:06 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x1df91f92118
+GO: 2024/04/18 22:07:06 lib.go:27: AddIn pointer: &{0x100001514bdfcc68 0x1df91f92160 0x1df91f92190 0x1df91f92220 0x1df91f92240 true 0x1df91f90101 0x7ffd4e3ba800}
+GO: 2024/04/18 22:07:06 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:07:06 logging.go:57: Pointer: 0x1df91f92108
+GO: 2024/04/18 22:07:06 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 22:07:06 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 22:08:14 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 22:08:15 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/18 22:08:15 lib.go:49: #0: 0x7ffd4e5136f8 = 0x41, 0x7ffd4e5136f9 = 0x0
+GO: 2024/04/18 22:08:15 lib.go:49: #1: 0x7ffd4e5136fa = 0x0, 0x7ffd4e5136fb = 0x0
+GO: 2024/04/18 22:08:15 lib.go:59: Array pointer: 0x7ffd4e5136f8
+GO: 2024/04/18 22:08:15 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 22:08:15 lib.go:67: GetClassObject was called, className: A
+GO: 2024/04/18 22:08:15 lib.go:72: Matched class A, creating component A
+GO: 2024/04/18 22:08:15 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 22:08:15 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 22:08:15 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 22:08:15 logging.go:52: AddIn created in C
+GO: 2024/04/18 22:08:15 logging.go:52: Setting memory manager
+GO: 2024/04/18 22:08:15 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 22:08:15 logging.go:57: Pointer: 0x1d0b28e2110
+GO: 2024/04/18 22:08:15 logging.go:52: Memory manager was set
+GO: 2024/04/18 22:08:15 logging.go:52: Init function was called
+GO: 2024/04/18 22:08:15 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 22:08:15 component.go:95: Getting property value for index 0
+GO: 2024/04/18 22:08:15 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x1d0b28e2118
+GO: 2024/04/18 22:08:15 lib.go:24: Applying offset: 2, pointer size: 8
+GO: 2024/04/18 22:08:15 lib.go:28: AddIn pointer: &{0x100066c28a50f764 0x1d0b28e2160 0x1d0b28e2190 0x1d0b28e2220 0x1d0b28e2240 true 0x1d0b28e0101 0x7ffd4e3ba800}
+GO: 2024/04/18 22:08:15 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:08:15 logging.go:57: Pointer: 0x1d0b28e2108
+GO: 2024/04/18 22:08:15 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 22:08:15 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 22:08:33 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 22:08:33 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/18 22:08:33 lib.go:49: #0: 0x7ffd4e5136f8 = 0x41, 0x7ffd4e5136f9 = 0x0
+GO: 2024/04/18 22:08:33 lib.go:49: #1: 0x7ffd4e5136fa = 0x0, 0x7ffd4e5136fb = 0x0
+GO: 2024/04/18 22:08:33 lib.go:59: Array pointer: 0x7ffd4e5136f8
+GO: 2024/04/18 22:08:33 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 22:08:33 lib.go:67: GetClassObject was called, className: A
+GO: 2024/04/18 22:08:33 lib.go:72: Matched class A, creating component A
+GO: 2024/04/18 22:08:33 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 22:08:33 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 22:08:33 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 22:08:33 logging.go:52: AddIn created in C
+GO: 2024/04/18 22:08:33 logging.go:52: Setting memory manager
+GO: 2024/04/18 22:08:33 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 22:08:33 logging.go:57: Pointer: 0x1df14942110
+GO: 2024/04/18 22:08:33 logging.go:52: Memory manager was set
+GO: 2024/04/18 22:08:33 logging.go:52: Init function was called
+GO: 2024/04/18 22:08:33 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 22:08:33 component.go:95: Getting property value for index 0
+GO: 2024/04/18 22:08:33 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x1df14942118
+GO: 2024/04/18 22:08:33 lib.go:24: Applying offset: 2, pointer size: 8
+GO: 2024/04/18 22:08:33 lib.go:28: AddIn pointer: &{0x1000fc473534d7d3 0x1df14942160 0x1df14942190 0x1df14942220 0x1df14942240 true 0x1df14940101 0x7ffd4e3ba800}
+GO: 2024/04/18 22:08:33 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:08:33 logging.go:57: Pointer: 0x1df14942108
+GO: 2024/04/18 22:08:33 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 22:08:33 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 22:08:53 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 22:08:53 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/18 22:08:53 lib.go:49: #0: 0x7ffd4d0d36f8 = 0x41, 0x7ffd4d0d36f9 = 0x0
+GO: 2024/04/18 22:08:53 lib.go:49: #1: 0x7ffd4d0d36fa = 0x0, 0x7ffd4d0d36fb = 0x0
+GO: 2024/04/18 22:08:53 lib.go:59: Array pointer: 0x7ffd4d0d36f8
+GO: 2024/04/18 22:08:53 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 22:08:53 lib.go:67: GetClassObject was called, className: A
+GO: 2024/04/18 22:08:53 lib.go:72: Matched class A, creating component A
+GO: 2024/04/18 22:08:53 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 22:08:53 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 22:08:53 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 22:08:53 logging.go:52: AddIn created in C
+GO: 2024/04/18 22:08:53 logging.go:52: Setting memory manager
+GO: 2024/04/18 22:08:53 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 22:08:53 logging.go:57: Pointer: 0x15e51482110
+GO: 2024/04/18 22:08:53 logging.go:52: Memory manager was set
+GO: 2024/04/18 22:08:53 logging.go:52: Init function was called
+GO: 2024/04/18 22:08:53 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 22:08:53 component.go:95: Getting property value for index 0
+GO: 2024/04/18 22:08:53 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x15e51482118
+GO: 2024/04/18 22:08:53 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/18 22:08:53 lib.go:28: AddIn pointer: &{0x15e51482160 0x15e51482190 0x15e51482220 0x15e51482240 0x15e51132400 true 0x7ffd4cf7a800 0xc00000a980}
+GO: 2024/04/18 22:08:53 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:08:53 logging.go:57: Pointer: 0x15e51482110
+GO: 2024/04/18 22:08:53 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 22:08:53 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 22:08:53 logging.go:52: Allocated memory
+GO: 2024/04/18 22:08:53 component.go:54: Allocated memory of size 28
+GO: 2024/04/18 22:08:53 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 22:08:53 component.go:95: Getting property value for index 0
+GO: 2024/04/18 22:08:53 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x15e51482118
+GO: 2024/04/18 22:08:53 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/18 22:08:53 lib.go:28: AddIn pointer: &{0x15e51482160 0x15e51482190 0x15e51482220 0x15e51482240 0x15e51132400 true 0x7ffd4cf7a800 0xc00000a980}
+GO: 2024/04/18 22:08:53 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:08:53 logging.go:57: Pointer: 0x15e51482110
+GO: 2024/04/18 22:08:53 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 22:08:53 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 22:08:53 logging.go:52: Allocated memory
+GO: 2024/04/18 22:08:53 component.go:54: Allocated memory of size 28
+GO: 2024/04/18 22:08:53 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 22:08:53 component.go:95: Getting property value for index 0
+GO: 2024/04/18 22:08:53 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x15e51482118
+GO: 2024/04/18 22:08:53 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/18 22:08:53 lib.go:28: AddIn pointer: &{0x15e51482160 0x15e51482190 0x15e51482220 0x15e51482240 0x15e51132400 true 0x7ffd4cf7a800 0xc00000a980}
+GO: 2024/04/18 22:08:53 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:08:53 logging.go:57: Pointer: 0x15e51482110
+GO: 2024/04/18 22:08:53 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 22:08:53 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 22:08:53 logging.go:52: Allocated memory
+GO: 2024/04/18 22:08:53 component.go:54: Allocated memory of size 28
+GO: 2024/04/18 22:09:31 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 22:09:31 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/18 22:09:31 lib.go:49: #0: 0x7ffd4d0d36f8 = 0x41, 0x7ffd4d0d36f9 = 0x0
+GO: 2024/04/18 22:09:31 lib.go:49: #1: 0x7ffd4d0d36fa = 0x0, 0x7ffd4d0d36fb = 0x0
+GO: 2024/04/18 22:09:31 lib.go:59: Array pointer: 0x7ffd4d0d36f8
+GO: 2024/04/18 22:09:31 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 22:09:31 lib.go:67: GetClassObject was called, className: A
+GO: 2024/04/18 22:09:31 lib.go:72: Matched class A, creating component A
+GO: 2024/04/18 22:09:31 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 22:09:31 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 22:09:31 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 22:09:31 logging.go:52: AddIn created in C
+GO: 2024/04/18 22:09:31 logging.go:52: Setting memory manager
+GO: 2024/04/18 22:09:31 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 22:09:31 logging.go:57: Pointer: 0x22d60356fd0
+GO: 2024/04/18 22:09:31 logging.go:52: Memory manager was set
+GO: 2024/04/18 22:09:31 logging.go:52: Init function was called
+GO: 2024/04/18 22:09:31 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 22:09:31 component.go:95: Getting property value for index 0
+GO: 2024/04/18 22:09:31 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x22d60356fd8
+GO: 2024/04/18 22:09:31 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/18 22:09:31 lib.go:28: AddIn pointer: 0x22d60356fd0
+GO: 2024/04/18 22:09:31 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:09:31 logging.go:57: Pointer: 0x22d60356fd0
+GO: 2024/04/18 22:09:31 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 22:09:31 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 22:09:31 logging.go:52: Allocated memory
+GO: 2024/04/18 22:09:31 component.go:54: Allocated memory of size 28
+GO: 2024/04/18 22:09:31 component.go:83: Finding property 'Property2'
+GO: 2024/04/18 22:09:31 component.go:95: Getting property value for index 0
+GO: 2024/04/18 22:09:31 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x22d60356fd8
+GO: 2024/04/18 22:09:31 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/18 22:09:31 lib.go:28: AddIn pointer: 0x22d60356fd0
+GO: 2024/04/18 22:09:31 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:09:31 logging.go:57: Pointer: 0x22d60356fd0
+GO: 2024/04/18 22:09:31 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 22:09:31 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 22:09:31 logging.go:52: Allocated memory
+GO: 2024/04/18 22:09:31 component.go:54: Allocated memory of size 28
+GO: 2024/04/18 22:09:31 component.go:83: Finding property 'Property3'
+GO: 2024/04/18 22:09:31 component.go:95: Getting property value for index 0
+GO: 2024/04/18 22:09:31 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x22d60356fd8
+GO: 2024/04/18 22:09:31 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/18 22:09:31 lib.go:28: AddIn pointer: 0x22d60356fd0
+GO: 2024/04/18 22:09:31 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:09:31 logging.go:57: Pointer: 0x22d60356fd0
+GO: 2024/04/18 22:09:31 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 22:09:31 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 22:09:31 logging.go:52: Allocated memory
+GO: 2024/04/18 22:09:31 component.go:54: Allocated memory of size 28
+GO: 2024/04/18 22:10:01 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 22:10:01 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/18 22:10:01 lib.go:49: #0: 0x7ffd4e5136f8 = 0x41, 0x7ffd4e5136f9 = 0x0
+GO: 2024/04/18 22:10:01 lib.go:49: #1: 0x7ffd4e5136fa = 0x0, 0x7ffd4e5136fb = 0x0
+GO: 2024/04/18 22:10:01 lib.go:59: Array pointer: 0x7ffd4e5136f8
+GO: 2024/04/18 22:10:01 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 22:10:01 lib.go:67: GetClassObject was called, className: A
+GO: 2024/04/18 22:10:01 lib.go:72: Matched class A, creating component A
+GO: 2024/04/18 22:10:01 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 22:10:01 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 22:10:01 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 22:10:01 logging.go:52: AddIn created in C
+GO: 2024/04/18 22:10:01 logging.go:52: Setting memory manager
+GO: 2024/04/18 22:10:01 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 22:10:01 logging.go:57: Pointer: 0x22022c52110
+GO: 2024/04/18 22:10:01 logging.go:52: Memory manager was set
+GO: 2024/04/18 22:10:01 logging.go:52: Init function was called
+GO: 2024/04/18 22:10:01 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 22:10:01 component.go:95: Getting property value for index 0
+GO: 2024/04/18 22:10:01 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x22022c52118
+GO: 2024/04/18 22:10:01 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/18 22:10:01 lib.go:28: AddIn pointer: 0x22022c52110
+GO: 2024/04/18 22:10:01 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:10:01 logging.go:57: Pointer: 0x22022c52110
+GO: 2024/04/18 22:10:01 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 22:10:01 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 22:10:01 logging.go:52: Allocated memory
+GO: 2024/04/18 22:10:01 component.go:54: Allocated memory of size 28
+GO: 2024/04/18 22:11:53 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 22:11:53 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/18 22:11:53 lib.go:49: #0: 0x7ffd4e5136f8 = 0x41, 0x7ffd4e5136f9 = 0x0
+GO: 2024/04/18 22:11:53 lib.go:49: #1: 0x7ffd4e5136fa = 0x0, 0x7ffd4e5136fb = 0x0
+GO: 2024/04/18 22:11:53 lib.go:59: Array pointer: 0x7ffd4e5136f8
+GO: 2024/04/18 22:11:54 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 22:11:54 lib.go:67: GetClassObject was called, className: A
+GO: 2024/04/18 22:11:54 lib.go:72: Matched class A, creating component A
+GO: 2024/04/18 22:11:54 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 22:11:54 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 22:11:54 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 22:11:54 logging.go:52: AddIn created in C
+GO: 2024/04/18 22:11:54 logging.go:52: Setting memory manager
+GO: 2024/04/18 22:11:54 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 22:11:54 logging.go:57: Pointer: 0x2451c471e20
+GO: 2024/04/18 22:11:54 logging.go:52: Memory manager was set
+GO: 2024/04/18 22:11:54 logging.go:52: Init function was called
+GO: 2024/04/18 22:11:54 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 22:11:54 component.go:95: Getting property value for index 0
+GO: 2024/04/18 22:11:54 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x2451c471e28
+GO: 2024/04/18 22:11:54 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/18 22:11:54 lib.go:28: AddIn pointer: 0x2451c471e20
+GO: 2024/04/18 22:11:54 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:11:54 logging.go:57: Pointer: 0x2451c471e20
+GO: 2024/04/18 22:11:54 platformtypes.go:59: WChar length: 14
+GO: 2024/04/18 22:11:54 platformtypes.go:60: Target length: 28
+GO: 2024/04/18 22:11:54 logging.go:52: Allocated memory
+GO: 2024/04/18 22:11:54 component.go:54: Allocated memory of size 28
+GO: 2024/04/18 22:13:19 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 22:13:19 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/18 22:13:19 lib.go:49: #0: 0x7ffd4e5136f8 = 0x41, 0x7ffd4e5136f9 = 0x0
+GO: 2024/04/18 22:13:19 lib.go:49: #1: 0x7ffd4e5136fa = 0x0, 0x7ffd4e5136fb = 0x0
+GO: 2024/04/18 22:13:19 lib.go:59: Array pointer: 0x7ffd4e5136f8
+GO: 2024/04/18 22:13:19 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 22:13:19 lib.go:67: GetClassObject was called, className: A
+GO: 2024/04/18 22:13:19 lib.go:72: Matched class A, creating component A
+GO: 2024/04/18 22:13:19 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 22:13:19 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 22:13:19 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 22:13:19 logging.go:52: AddIn created in C
+GO: 2024/04/18 22:13:19 logging.go:52: Setting memory manager
+GO: 2024/04/18 22:13:19 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 22:13:19 logging.go:57: Pointer: 0x1e594356f80
+GO: 2024/04/18 22:13:19 logging.go:52: Memory manager was set
+GO: 2024/04/18 22:13:19 logging.go:52: Init function was called
+GO: 2024/04/18 22:13:19 component.go:83: Finding property 'Property1'
+GO: 2024/04/18 22:13:19 component.go:95: Getting property value for index 0
+GO: 2024/04/18 22:13:19 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x1e594356f88
+GO: 2024/04/18 22:13:19 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/18 22:13:19 lib.go:28: AddIn pointer: 0x1e594356f80
+GO: 2024/04/18 22:13:19 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:13:19 logging.go:57: Pointer: 0x1e594356f80
+GO: 2024/04/18 22:13:19 platformtypes.go:59: WChar length: 13
+GO: 2024/04/18 22:13:19 platformtypes.go:60: Target length: 26
+GO: 2024/04/18 22:13:19 logging.go:52: Allocated memory
+GO: 2024/04/18 22:13:19 component.go:54: Allocated memory of size 26
+GO: 2024/04/18 22:15:48 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 22:15:48 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/18 22:15:48 lib.go:49: #0: 0x7ffd4e5136f8 = 0x41, 0x7ffd4e5136f9 = 0x0
+GO: 2024/04/18 22:15:48 lib.go:49: #1: 0x7ffd4e5136fa = 0x0, 0x7ffd4e5136fb = 0x0
+GO: 2024/04/18 22:15:48 lib.go:59: Array pointer: 0x7ffd4e5136f8
+GO: 2024/04/18 22:15:48 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 22:15:48 lib.go:67: GetClassObject was called, className: A
+GO: 2024/04/18 22:15:48 lib.go:72: Matched class A, creating component A
+GO: 2024/04/18 22:15:48 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 22:15:48 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 22:15:48 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 22:15:48 logging.go:52: AddIn created in C
+GO: 2024/04/18 22:15:48 logging.go:52: Setting memory manager
+GO: 2024/04/18 22:15:48 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 22:15:48 logging.go:57: Pointer: 0x1ee6f862110
+GO: 2024/04/18 22:15:48 logging.go:52: Memory manager was set
+GO: 2024/04/18 22:15:48 logging.go:52: Init function was called
+GO: 2024/04/18 22:15:48 component.go:74: Finding property 'Property1'
+GO: 2024/04/18 22:15:48 component.go:86: Getting property value for index 0
+GO: 2024/04/18 22:15:48 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x1ee6f862118
+GO: 2024/04/18 22:15:48 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/18 22:15:48 lib.go:28: AddIn pointer: 0x1ee6f862110
+GO: 2024/04/18 22:15:48 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:15:48 logging.go:57: Pointer: 0x1ee6f862110
+GO: 2024/04/18 22:15:48 platformtypes.go:59: WChar length: 13
+GO: 2024/04/18 22:15:48 platformtypes.go:60: Target length: 26
+GO: 2024/04/18 22:15:48 component.go:45: Allocated memory of size 26
+GO: 2024/04/18 22:16:40 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 22:16:40 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/18 22:16:40 lib.go:49: #0: 0x7ffd4e5136f8 = 0x41, 0x7ffd4e5136f9 = 0x0
+GO: 2024/04/18 22:16:40 lib.go:49: #1: 0x7ffd4e5136fa = 0x0, 0x7ffd4e5136fb = 0x0
+GO: 2024/04/18 22:16:40 lib.go:59: Array pointer: 0x7ffd4e5136f8
+GO: 2024/04/18 22:16:40 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 22:16:40 lib.go:67: GetClassObject was called, className: A
+GO: 2024/04/18 22:16:40 lib.go:72: Matched class A, creating component A
+GO: 2024/04/18 22:16:40 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 22:16:40 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 22:16:40 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 22:16:40 logging.go:52: AddIn created in C
+GO: 2024/04/18 22:16:40 logging.go:52: Setting memory manager
+GO: 2024/04/18 22:16:40 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 22:16:40 logging.go:57: Pointer: 0x1cd12726f80
+GO: 2024/04/18 22:16:40 logging.go:52: Memory manager was set
+GO: 2024/04/18 22:16:40 logging.go:52: Init function was called
+GO: 2024/04/18 22:16:40 component.go:74: Finding property 'Property1'
+GO: 2024/04/18 22:16:40 component.go:86: Getting property value for index 0
+GO: 2024/04/18 22:16:40 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x1cd12726f88
+GO: 2024/04/18 22:16:40 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/18 22:16:40 lib.go:28: AddIn pointer: 0x1cd12726f80
+GO: 2024/04/18 22:16:40 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:16:40 logging.go:57: Pointer: 0x1cd12726f80
+GO: 2024/04/18 22:16:40 platformtypes.go:59: WChar length: 13
+GO: 2024/04/18 22:16:40 platformtypes.go:60: Target length: 26
+GO: 2024/04/18 22:16:40 component.go:45: Allocated memory of size 26
+GO: 2024/04/18 22:19:58 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 22:19:58 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/18 22:19:58 lib.go:49: #0: 0x7ffd4e5036f8 = 0x41, 0x7ffd4e5036f9 = 0x0
+GO: 2024/04/18 22:19:58 lib.go:49: #1: 0x7ffd4e5036fa = 0x0, 0x7ffd4e5036fb = 0x0
+GO: 2024/04/18 22:19:58 lib.go:59: Array pointer: 0x7ffd4e5036f8
+GO: 2024/04/18 22:19:58 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 22:19:58 lib.go:67: GetClassObject was called, className: A
+GO: 2024/04/18 22:19:58 lib.go:72: Matched class A, creating component A
+GO: 2024/04/18 22:19:58 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 22:19:58 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 22:19:58 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 22:19:58 logging.go:52: AddIn created in C
+GO: 2024/04/18 22:19:58 logging.go:52: Setting memory manager
+GO: 2024/04/18 22:19:58 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 22:19:58 logging.go:57: Pointer: 0x1a95cea2110
+GO: 2024/04/18 22:19:58 logging.go:52: Memory manager was set
+GO: 2024/04/18 22:19:58 logging.go:52: Init function was called
+GO: 2024/04/18 22:19:58 component.go:74: Finding property 'Property1'
+GO: 2024/04/18 22:19:58 component.go:86: Getting property value for index 0
+GO: 2024/04/18 22:19:58 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x1a95cea2118
+GO: 2024/04/18 22:19:58 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/18 22:19:58 lib.go:28: AddIn pointer: 0x1a95cea2110
+GO: 2024/04/18 22:19:58 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:19:58 logging.go:57: Pointer: 0x1a95cea2110
+GO: 2024/04/18 22:19:58 platformtypes.go:59: WChar length: 13
+GO: 2024/04/18 22:19:58 platformtypes.go:60: Target length: 26
+GO: 2024/04/18 22:19:58 component.go:45: Allocated memory of size 26
+GO: 2024/04/18 22:19:58 platformtypes.go:69: %!s(uint8=72) - WChar #0: 72
+GO: 2024/04/18 22:19:58 platformtypes.go:69: %!s(uint8=101) - WChar #1: 101
+GO: 2024/04/18 22:19:58 platformtypes.go:69: %!s(uint8=108) - WChar #2: 108
+GO: 2024/04/18 22:19:58 platformtypes.go:69: %!s(uint8=108) - WChar #3: 108
+GO: 2024/04/18 22:19:58 platformtypes.go:69: %!s(uint8=111) - WChar #4: 111
+GO: 2024/04/18 22:19:58 platformtypes.go:69: %!s(uint8=44) - WChar #5: 44
+GO: 2024/04/18 22:19:58 platformtypes.go:69: %!s(uint8=32) - WChar #6: 32
+GO: 2024/04/18 22:19:58 platformtypes.go:69: %!s(uint8=119) - WChar #7: 119
+GO: 2024/04/18 22:19:58 platformtypes.go:69: %!s(uint8=111) - WChar #8: 111
+GO: 2024/04/18 22:19:58 platformtypes.go:69: %!s(uint8=114) - WChar #9: 114
+GO: 2024/04/18 22:19:58 platformtypes.go:69: %!s(uint8=108) - WChar #10: 108
+GO: 2024/04/18 22:19:58 platformtypes.go:69: %!s(uint8=100) - WChar #11: 100
+GO: 2024/04/18 22:19:58 platformtypes.go:69: %!s(uint8=33) - WChar #12: 33
+GO: 2024/04/18 22:20:59 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 22:20:59 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/18 22:20:59 lib.go:49: #0: 0x7ffd4e5036f8 = 0x41, 0x7ffd4e5036f9 = 0x0
+GO: 2024/04/18 22:20:59 lib.go:49: #1: 0x7ffd4e5036fa = 0x0, 0x7ffd4e5036fb = 0x0
+GO: 2024/04/18 22:20:59 lib.go:59: Array pointer: 0x7ffd4e5036f8
+GO: 2024/04/18 22:21:00 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/18 22:21:00 lib.go:67: GetClassObject was called, className: A
+GO: 2024/04/18 22:21:00 lib.go:72: Matched class A, creating component A
+GO: 2024/04/18 22:21:00 logging.go:52: Creating AddIn in C
+GO: 2024/04/18 22:21:00 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/18 22:21:00 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/18 22:21:00 logging.go:52: AddIn created in C
+GO: 2024/04/18 22:21:00 logging.go:52: Setting memory manager
+GO: 2024/04/18 22:21:00 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/18 22:21:00 logging.go:57: Pointer: 0x1c099f26f80
+GO: 2024/04/18 22:21:00 logging.go:52: Memory manager was set
+GO: 2024/04/18 22:21:00 logging.go:52: Init function was called
+GO: 2024/04/18 22:21:00 component.go:74: Finding property 'Property1'
+GO: 2024/04/18 22:21:00 component.go:86: Getting property value for index 0
+GO: 2024/04/18 22:21:00 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x1c099f26f88
+GO: 2024/04/18 22:21:00 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/18 22:21:00 lib.go:28: AddIn pointer: 0x1c099f26f80
+GO: 2024/04/18 22:21:00 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/18 22:21:00 logging.go:57: Pointer: 0x1c099f26f80
+GO: 2024/04/18 22:21:00 platformtypes.go:59: WChar length: 13
+GO: 2024/04/18 22:21:00 platformtypes.go:60: Target length: 26
+GO: 2024/04/18 22:21:00 component.go:45: Allocated memory of size 26
+GO: 2024/04/18 22:21:00 platformtypes.go:69: H - WChar #0: 72
+GO: 2024/04/18 22:21:00 platformtypes.go:69: e - WChar #1: 101
+GO: 2024/04/18 22:21:00 platformtypes.go:69: l - WChar #2: 108
+GO: 2024/04/18 22:21:00 platformtypes.go:69: l - WChar #3: 108
+GO: 2024/04/18 22:21:00 platformtypes.go:69: o - WChar #4: 111
+GO: 2024/04/18 22:21:00 platformtypes.go:69: , - WChar #5: 44
+GO: 2024/04/18 22:21:00 platformtypes.go:69:   - WChar #6: 32
+GO: 2024/04/18 22:21:00 platformtypes.go:69: w - WChar #7: 119
+GO: 2024/04/18 22:21:00 platformtypes.go:69: o - WChar #8: 111
+GO: 2024/04/18 22:21:00 platformtypes.go:69: r - WChar #9: 114
+GO: 2024/04/18 22:21:00 platformtypes.go:69: l - WChar #10: 108
+GO: 2024/04/18 22:21:00 platformtypes.go:69: d - WChar #11: 100
+GO: 2024/04/18 22:21:00 platformtypes.go:69: ! - WChar #12: 33
+RS: 2024-04-18 17:21:33.317439800 - - - - - - Platform is loading AddIn - - - - - -
+RS: 2024-04-18 17:21:33.317808600 #0: 0x00007ffdbcbd070a = 0x30, 0x00007ffdbcbd070b = 0x00
+RS: 2024-04-18 17:21:33.318013600 #1: 0x00007ffdbcbd070c = 0x00, 0x00007ffdbcbd070d = 0x00
+RS: 2024-04-18 17:21:33.319604800 - - - - - - Platform is creating - - - - - -
+GO: 2024/04/18 22:23:13 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/18 22:23:13 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/18 22:23:13 lib.go:49: #0: 0x7ffd4b6336f8 = 0x41, 0x7ffd4b6336f9 = 0x0
+GO: 2024/04/18 22:23:13 lib.go:49: #1: 0x7ffd4b6336fa = 0x0, 0x7ffd4b6336fb = 0x0
+GO: 2024/04/18 22:23:13 lib.go:59: Array pointer: 0x7ffd4b6336f8
+GO: 2024/04/18 22:23:13 lib.go:94: - - - - Platform is getting attach type - - - - -
+GO: 2024/04/19 09:13:14 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 09:13:14 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 09:13:14 lib.go:49: #0: 0x7ffaf7a936f8 = 0x41, 0x7ffaf7a936f9 = 0x0
+GO: 2024/04/19 09:13:14 lib.go:49: #1: 0x7ffaf7a936fa = 0x0, 0x7ffaf7a936fb = 0x0
+GO: 2024/04/19 09:13:14 lib.go:59: Array pointer: 0x7ffaf7a936f8
+GO: 2024/04/19 09:13:14 lib.go:94: - - - - Platform is getting attach type - - - - -
+GO: 2024/04/19 09:18:04 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 09:18:04 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 09:18:04 lib.go:49: #0: 0x7ffb65ad36f8 = 0x41, 0x7ffb65ad36f9 = 0x0
+GO: 2024/04/19 09:18:04 lib.go:49: #1: 0x7ffb65ad36fa = 0x0, 0x7ffb65ad36fb = 0x0
+GO: 2024/04/19 09:18:04 lib.go:59: Array pointer: 0x7ffb65ad36f8
+GO: 2024/04/19 09:18:04 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/19 09:18:04 lib.go:67: GetClassObject was called, className: A
+GO: 2024/04/19 09:18:04 lib.go:72: Matched class A, creating component A
+GO: 2024/04/19 09:18:04 logging.go:52: Creating AddIn in C
+GO: 2024/04/19 09:18:04 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/19 09:18:04 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/19 09:18:04 logging.go:52: AddIn created in C
+GO: 2024/04/19 09:18:04 logging.go:52: Setting memory manager
+GO: 2024/04/19 09:18:04 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/19 09:18:04 logging.go:57: Pointer: 0x2aafd541e20
+GO: 2024/04/19 09:18:04 logging.go:52: Memory manager was set
+GO: 2024/04/19 09:18:04 logging.go:52: Init function was called
+GO: 2024/04/19 09:18:04 component.go:74: Finding property 'Property1'
+GO: 2024/04/19 09:18:04 component.go:86: Getting property value for index 0
+GO: 2024/04/19 09:18:04 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x2aafd541e28
+GO: 2024/04/19 09:18:04 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/19 09:18:04 lib.go:28: AddIn pointer: 0x2aafd541e20
+GO: 2024/04/19 09:18:04 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/19 09:18:04 logging.go:57: Pointer: 0x2aafd541e20
+GO: 2024/04/19 09:18:04 platformtypes.go:59: WChar length: 13
+GO: 2024/04/19 09:18:04 platformtypes.go:60: Target length: 26
+GO: 2024/04/19 09:18:04 component.go:45: Allocated memory of size 26
+GO: 2024/04/19 09:18:04 platformtypes.go:69: H - WChar #0: 72
+GO: 2024/04/19 09:18:04 platformtypes.go:69: e - WChar #1: 101
+GO: 2024/04/19 09:18:04 platformtypes.go:69: l - WChar #2: 108
+GO: 2024/04/19 09:18:04 platformtypes.go:69: l - WChar #3: 108
+GO: 2024/04/19 09:18:04 platformtypes.go:69: o - WChar #4: 111
+GO: 2024/04/19 09:18:04 platformtypes.go:69: , - WChar #5: 44
+GO: 2024/04/19 09:18:04 platformtypes.go:69:   - WChar #6: 32
+GO: 2024/04/19 09:18:04 platformtypes.go:69: w - WChar #7: 119
+GO: 2024/04/19 09:18:04 platformtypes.go:69: o - WChar #8: 111
+GO: 2024/04/19 09:18:04 platformtypes.go:69: r - WChar #9: 114
+GO: 2024/04/19 09:18:04 platformtypes.go:69: l - WChar #10: 108
+GO: 2024/04/19 09:18:04 platformtypes.go:69: d - WChar #11: 100
+GO: 2024/04/19 09:18:04 platformtypes.go:69: ! - WChar #12: 33
+GO: 2024/04/19 09:20:40 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 09:20:40 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 09:20:40 lib.go:49: #0: 0x7ffafa7c36f8 = 0x41, 0x7ffafa7c36f9 = 0x0
+GO: 2024/04/19 09:20:40 lib.go:49: #1: 0x7ffafa7c36fa = 0x0, 0x7ffafa7c36fb = 0x0
+GO: 2024/04/19 09:20:40 lib.go:59: Array pointer: 0x7ffafa7c36f8
+GO: 2024/04/19 09:22:27 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 09:22:27 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 09:22:27 lib.go:49: #0: 0x7ffb09fe36f8 = 0x41, 0x7ffb09fe36f9 = 0x0
+GO: 2024/04/19 09:22:27 lib.go:49: #1: 0x7ffb09fe36fa = 0x0, 0x7ffb09fe36fb = 0x0
+GO: 2024/04/19 09:22:27 lib.go:59: Array pointer: 0x7ffb09fe36f8
+GO: 2024/04/19 09:22:27 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/19 09:22:27 lib.go:67: GetClassObject was called, className: A
+GO: 2024/04/19 09:22:27 lib.go:72: Matched class A, creating component A
+GO: 2024/04/19 09:22:27 logging.go:52: Creating AddIn in C
+GO: 2024/04/19 09:22:27 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/19 09:22:27 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/19 09:22:27 logging.go:52: AddIn created in C
+GO: 2024/04/19 09:22:27 logging.go:52: Setting memory manager
+GO: 2024/04/19 09:22:27 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/19 09:22:27 logging.go:57: Pointer: 0x1f4d2ea7e80
+GO: 2024/04/19 09:22:27 logging.go:52: Memory manager was set
+GO: 2024/04/19 09:22:27 logging.go:52: Init function was called
+GO: 2024/04/19 09:22:27 component.go:74: Finding property 'Property1'
+GO: 2024/04/19 09:22:27 component.go:86: Getting property value for index 0
+GO: 2024/04/19 09:22:27 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x1f4d2ea7e88
+GO: 2024/04/19 09:22:27 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/19 09:22:27 lib.go:28: AddIn pointer: 0x1f4d2ea7e80
+GO: 2024/04/19 09:22:27 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/19 09:22:27 logging.go:57: Pointer: 0x1f4d2ea7e80
+GO: 2024/04/19 09:22:27 platformtypes.go:59: WChar length: 13
+GO: 2024/04/19 09:22:27 platformtypes.go:60: Target length: 26
+GO: 2024/04/19 09:22:27 component.go:45: Allocated memory of size 26
+GO: 2024/04/19 09:22:27 platformtypes.go:69: H - WChar #0: 72
+GO: 2024/04/19 09:22:27 platformtypes.go:69: e - WChar #1: 101
+GO: 2024/04/19 09:22:27 platformtypes.go:69: l - WChar #2: 108
+GO: 2024/04/19 09:22:27 platformtypes.go:69: l - WChar #3: 108
+GO: 2024/04/19 09:22:27 platformtypes.go:69: o - WChar #4: 111
+GO: 2024/04/19 09:22:27 platformtypes.go:69: , - WChar #5: 44
+GO: 2024/04/19 09:22:27 platformtypes.go:69:   - WChar #6: 32
+GO: 2024/04/19 09:22:27 platformtypes.go:69: w - WChar #7: 119
+GO: 2024/04/19 09:22:27 platformtypes.go:69: o - WChar #8: 111
+GO: 2024/04/19 09:22:27 platformtypes.go:69: r - WChar #9: 114
+GO: 2024/04/19 09:22:27 platformtypes.go:69: l - WChar #10: 108
+GO: 2024/04/19 09:22:27 platformtypes.go:69: d - WChar #11: 100
+GO: 2024/04/19 09:22:27 platformtypes.go:69: ! - WChar #12: 33
+GO: 2024/04/19 09:33:53 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 09:33:53 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 09:33:53 lib.go:49: #0: 0x7ffafa2536f8 = 0x41, 0x7ffafa2536f9 = 0x0
+GO: 2024/04/19 09:33:53 lib.go:49: #1: 0x7ffafa2536fa = 0x0, 0x7ffafa2536fb = 0x0
+GO: 2024/04/19 09:33:53 lib.go:59: Array pointer: 0x7ffafa2536f8
+GO: 2024/04/19 09:34:50 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 09:34:50 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 09:34:50 lib.go:49: #0: 0x7ffaf7a936f8 = 0x41, 0x7ffaf7a936f9 = 0x0
+GO: 2024/04/19 09:34:50 lib.go:49: #1: 0x7ffaf7a936fa = 0x0, 0x7ffaf7a936fb = 0x0
+GO: 2024/04/19 09:34:50 lib.go:59: Array pointer: 0x7ffaf7a936f8
+GO: 2024/04/19 09:34:50 lib.go:94: - - - - Platform is getting attach type - - - - -
+GO: 2024/04/19 09:35:26 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 09:35:26 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 09:35:26 lib.go:49: #0: 0x7ffaf7aca6b0 = 0xf8, 0x7ffaf7aca6b1 = 0x36
+GO: 2024/04/19 09:35:26 lib.go:49: #1: 0x7ffaf7aca6b2 = 0xa9, 0x7ffaf7aca6b3 = 0xf7
+GO: 2024/04/19 09:35:26 lib.go:59: Array pointer: 0x7ffaf7aca6b0
+GO: 2024/04/19 09:38:18 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 09:38:18 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 09:38:18 lib.go:49: #0: 0x7ffaf73f36f8 = 0x41, 0x7ffaf73f36f9 = 0x0
+GO: 2024/04/19 09:38:18 lib.go:49: #1: 0x7ffaf73f36fa = 0x0, 0x7ffaf73f36fb = 0x0
+GO: 2024/04/19 09:38:18 lib.go:59: Array pointer: 0x7ffaf73f36f8
+GO: 2024/04/19 09:38:18 lib.go:94: - - - - Platform is getting attach type - - - - -
+GO: 2024/04/19 09:38:41 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 09:38:41 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 09:38:41 lib.go:49: #0: 0x7ffaf73136f8 = 0x41, 0x7ffaf73136f9 = 0x0
+GO: 2024/04/19 09:38:41 lib.go:49: #1: 0x7ffaf73136fc = 0x1, 0x7ffaf73136fd = 0x0
+GO: 2024/04/19 09:38:41 lib.go:59: Array pointer: 0x7ffaf73136f8
+GO: 2024/04/19 09:38:41 lib.go:94: - - - - Platform is getting attach type - - - - -
+GO: 2024/04/19 09:39:15 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 09:39:15 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 09:39:15 lib.go:49: #0: 0x7ffb098b36f8 = 0x41, 0x7ffb098b36f9 = 0x0
+GO: 2024/04/19 09:39:15 lib.go:49: #1: 0x7ffb098b36fa = 0x0, 0x7ffb098b36fb = 0x0
+GO: 2024/04/19 09:39:15 lib.go:59: Array pointer: 0x7ffb098b36f8
+GO: 2024/04/19 09:39:15 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/19 09:39:15 lib.go:67: GetClassObject was called, className: A
+GO: 2024/04/19 09:39:15 lib.go:72: Matched class A, creating component A
+GO: 2024/04/19 09:39:15 logging.go:52: Creating AddIn in C
+GO: 2024/04/19 09:39:15 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/19 09:39:15 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/19 09:39:15 logging.go:52: AddIn created in C
+GO: 2024/04/19 09:39:15 logging.go:52: Setting memory manager
+GO: 2024/04/19 09:39:15 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/19 09:39:15 logging.go:57: Pointer: 0x1e074a82110
+GO: 2024/04/19 09:39:15 logging.go:52: Memory manager was set
+GO: 2024/04/19 09:39:15 logging.go:52: Init function was called
+GO: 2024/04/19 09:39:15 component.go:74: Finding property 'Property1'
+GO: 2024/04/19 09:39:15 component.go:86: Getting property value for index 0
+GO: 2024/04/19 09:39:15 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x1e074a82118
+GO: 2024/04/19 09:39:15 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/19 09:39:15 lib.go:28: AddIn pointer: 0x1e074a82110
+GO: 2024/04/19 09:39:15 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/19 09:39:15 logging.go:57: Pointer: 0x1e074a82110
+GO: 2024/04/19 09:39:15 platformtypes.go:59: WChar length: 13
+GO: 2024/04/19 09:39:15 platformtypes.go:60: Target length: 26
+GO: 2024/04/19 09:39:15 component.go:45: Allocated memory of size 26
+GO: 2024/04/19 09:39:15 platformtypes.go:69: H - WChar #0: 72
+GO: 2024/04/19 09:39:15 platformtypes.go:69: e - WChar #1: 101
+GO: 2024/04/19 09:39:15 platformtypes.go:69: l - WChar #2: 108
+GO: 2024/04/19 09:39:15 platformtypes.go:69: l - WChar #3: 108
+GO: 2024/04/19 09:39:15 platformtypes.go:69: o - WChar #4: 111
+GO: 2024/04/19 09:39:15 platformtypes.go:69: , - WChar #5: 44
+GO: 2024/04/19 09:39:15 platformtypes.go:69:   - WChar #6: 32
+GO: 2024/04/19 09:39:15 platformtypes.go:69: w - WChar #7: 119
+GO: 2024/04/19 09:39:15 platformtypes.go:69: o - WChar #8: 111
+GO: 2024/04/19 09:39:15 platformtypes.go:69: r - WChar #9: 114
+GO: 2024/04/19 09:39:15 platformtypes.go:69: l - WChar #10: 108
+GO: 2024/04/19 09:39:15 platformtypes.go:69: d - WChar #11: 100
+GO: 2024/04/19 09:39:15 platformtypes.go:69: ! - WChar #12: 33
+GO: 2024/04/19 09:39:19 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 09:39:19 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 09:39:19 lib.go:49: #0: 0x7ffaf74a36f8 = 0x41, 0x7ffaf74a36f9 = 0x0
+GO: 2024/04/19 09:39:19 lib.go:49: #1: 0x7ffaf74a36fa = 0x0, 0x7ffaf74a36fb = 0x0
+GO: 2024/04/19 09:39:19 lib.go:59: Array pointer: 0x7ffaf74a36f8
+GO: 2024/04/19 09:39:19 lib.go:94: - - - - Platform is getting attach type - - - - -
+GO: 2024/04/19 09:40:10 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 09:40:10 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 09:40:10 lib.go:49: #0: 0x7ffaf74b36f8 = 0x41, 0x7ffaf74b36f9 = 0x0
+GO: 2024/04/19 09:40:10 lib.go:49: #1: 0x7ffaf74b36fa = 0x0, 0x7ffaf74b36fb = 0x0
+GO: 2024/04/19 09:40:10 lib.go:59: Array pointer: 0x7ffaf74b36f8
+GO: 2024/04/19 09:40:10 lib.go:95: - - - - Platform is getting attach type - - - - -
+GO: 2024/04/19 09:40:53 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 09:40:53 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 09:40:53 lib.go:49: #0: 0x7ffaf88e36f8 = 0x41, 0x7ffaf88e36f9 = 0x0
+GO: 2024/04/19 09:40:53 lib.go:49: #1: 0x7ffaf88e36fa = 0x0, 0x7ffaf88e36fb = 0x0
+GO: 2024/04/19 09:40:53 lib.go:59: Array pointer: 0x7ffaf88e36f8
+GO: 2024/04/19 09:41:10 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 09:41:10 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 09:41:10 lib.go:49: #0: 0x7ffaf88e36f8 = 0x41, 0x7ffaf88e36f9 = 0x0
+GO: 2024/04/19 09:41:10 lib.go:49: #1: 0x7ffaf88e36fa = 0x0, 0x7ffaf88e36fb = 0x0
+GO: 2024/04/19 09:41:10 lib.go:59: Array pointer: 0x7ffaf88e36f8
+GO: 2024/04/19 09:41:33 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 09:41:33 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 09:41:33 lib.go:49: #0: 0x7ffaf88e36f8 = 0x41, 0x7ffaf88e36f9 = 0x0
+GO: 2024/04/19 09:41:33 lib.go:49: #1: 0x7ffaf88e36fa = 0x0, 0x7ffaf88e36fb = 0x0
+GO: 2024/04/19 09:41:33 lib.go:59: Array pointer: 0x7ffaf88e36f8
+GO: 2024/04/19 10:49:56 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 10:49:56 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 10:49:56 lib.go:49: #0: 0x7ffaf46136f8 = 0x41, 0x7ffaf46136f9 = 0x0
+GO: 2024/04/19 10:49:56 lib.go:49: #1: 0x7ffaf46136fa = 0x0, 0x7ffaf46136fb = 0x0
+GO: 2024/04/19 10:49:56 lib.go:59: Array pointer: 0x7ffaf46136f8
+GO: 2024/04/19 10:50:33 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 10:50:33 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 10:50:33 lib.go:49: #0: 0x7ffaf46136f8 = 0x41, 0x7ffaf46136f9 = 0x0
+GO: 2024/04/19 10:50:33 lib.go:49: #1: 0x7ffaf46136fa = 0x0, 0x7ffaf46136fb = 0x0
+GO: 2024/04/19 10:50:33 lib.go:59: Array pointer: 0x7ffaf46136f8
+GO: 2024/04/19 10:50:55 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 10:50:55 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 10:50:55 lib.go:49: #0: 0x7ffaf61336f8 = 0x41, 0x7ffaf61336f9 = 0x0
+GO: 2024/04/19 10:50:55 lib.go:49: #1: 0x7ffaf61336fa = 0x0, 0x7ffaf61336fb = 0x0
+GO: 2024/04/19 10:50:55 lib.go:59: Array pointer: 0x7ffaf61336f8
+GO: 2024/04/19 10:51:21 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 10:51:21 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 10:51:21 lib.go:49: #0: 0x7ffaf644c810 = 0x0, 0x7ffaf644c811 = 0x0
+GO: 2024/04/19 10:51:21 lib.go:59: Array pointer: 0x7ffaf644c810
+1C: 19/04/2024 10:55:53: Starting loading AddIn
+GO: 2024/04/19 10:55:53 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 10:55:53 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 10:55:53 lib.go:49: #0: 0x7ffaf66cc810 = 0x0, 0x7ffaf66cc811 = 0x0
+GO: 2024/04/19 10:55:53 lib.go:59: Array pointer: 0x7ffaf66cc810
+1C: 19/04/2024 10:56:45: Starting loading AddIn
+GO: 2024/04/19 10:56:45 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 10:56:45 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 10:56:45 lib.go:49: #0: 0x7ffaf66cc810 = 0x0, 0x7ffaf66cc811 = 0x0
+GO: 2024/04/19 10:56:45 lib.go:59: Array pointer: 0x7ffaf66cc810
+1C: 19/04/2024 10:57:45: Starting loading AddIn
+GO: 2024/04/19 10:57:45 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 10:57:45 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 10:57:45 lib.go:49: #0: 0x7ffaf66cc810 = 0x0, 0x7ffaf66cc811 = 0x0
+GO: 2024/04/19 10:57:45 lib.go:59: Array pointer: 0x7ffaf66cc810
+1C: 19/04/2024 10:58:08: - - - - Starting loading AddIn
+GO: 2024/04/19 10:58:08 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 10:58:08 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 10:58:08 lib.go:49: #0: 0x7ffaf66cc810 = 0x0, 0x7ffaf66cc811 = 0x0
+GO: 2024/04/19 10:58:08 lib.go:59: Array pointer: 0x7ffaf66cc810
+1C: 19/04/2024 10:58:35: - - - - Starting loading AddIn
+GO: 2024/04/19 10:58:35 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 10:58:35 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 10:58:35 lib.go:49: #0: 0x7ffaf63b36f8 = 0x41, 0x7ffaf63b36f9 = 0x0
+GO: 2024/04/19 10:58:35 lib.go:49: #1: 0x7ffaf63b36fa = 0x0, 0x7ffaf63b36fb = 0x0
+GO: 2024/04/19 10:58:35 lib.go:59: Array pointer: 0x7ffaf63b36f8
+1C: 19/04/2024 11:35:08: - - - - Starting loading AddIn
+GO: 2024/04/19 11:35:08 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 11:35:08 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 11:35:08 lib.go:49: #0: 0x7ffaf66b36f8 = 0x41, 0x7ffaf66b36f9 = 0x0
+GO: 2024/04/19 11:35:08 lib.go:49: #1: 0x7ffaf66b36fa = 0x0, 0x7ffaf66b36fb = 0x0
+GO: 2024/04/19 11:35:08 lib.go:59: Array pointer: 0x7ffaf66b36f8
+1C: 19/04/2024 11:35:59: - - - - Starting loading AddIn
+GO: 2024/04/19 11:35:59 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 11:35:59 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 11:35:59 lib.go:49: #0: 0x7ffaf66b36f8 = 0x41, 0x7ffaf66b36f9 = 0x0
+GO: 2024/04/19 11:35:59 lib.go:49: #1: 0x7ffaf66b36fa = 0x0, 0x7ffaf66b36fb = 0x0
+GO: 2024/04/19 11:35:59 lib.go:59: Array pointer: 0x7ffaf66b36f8
+1C: 19/04/2024 11:36:26: - - - - Starting loading AddIn
+GO: 2024/04/19 11:36:26 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 11:36:26 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 11:36:26 lib.go:49: #0: 0x7ffaf66b36f8 = 0x41, 0x7ffaf66b36f9 = 0x0
+GO: 2024/04/19 11:36:26 lib.go:49: #1: 0x7ffaf66b36fa = 0x0, 0x7ffaf66b36fb = 0x0
+GO: 2024/04/19 11:36:26 lib.go:59: Array pointer: 0x7ffaf66b36f8
+GO: 2024/04/19 11:44:32 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 11:44:32 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 11:44:32 lib.go:49: #0: 0x7ffaf66b36f8 = 0x41, 0x7ffaf66b36f9 = 0x0
+GO: 2024/04/19 11:44:32 lib.go:49: #1: 0x7ffaf66b36fa = 0x0, 0x7ffaf66b36fb = 0x0
+GO: 2024/04/19 11:44:32 lib.go:59: Array pointer: 0x7ffaf66b36f8
+GO: 2024/04/19 11:44:32 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/19 11:45:33 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 11:45:33 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 11:45:33 lib.go:49: #0: 0x7ffaf66b36f8 = 0x41, 0x7ffaf66b36f9 = 0x0
+GO: 2024/04/19 11:45:33 lib.go:49: #1: 0x7ffaf66b36fa = 0x0, 0x7ffaf66b36fb = 0x0
+GO: 2024/04/19 11:45:33 lib.go:59: Array pointer: 0x7ffaf66b36f8
+GO: 2024/04/19 11:45:33 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/19 11:45:41 lib.go:40: - - - - - - Platform is loading AddIn - - - - - -
+GO: 2024/04/19 11:45:41 lib.go:41: GetClassNames was called, returning: A
+GO: 2024/04/19 11:45:41 lib.go:49: #0: 0x7ffaf66a36f8 = 0x41, 0x7ffaf66a36f9 = 0x0
+GO: 2024/04/19 11:45:41 lib.go:49: #1: 0x7ffaf66a36fa = 0x0, 0x7ffaf66a36fb = 0x0
+GO: 2024/04/19 11:45:41 lib.go:59: Array pointer: 0x7ffaf66a36f8
+GO: 2024/04/19 11:45:41 lib.go:65: - - - - Platform is loading AddIn object - - - -
+GO: 2024/04/19 11:45:41 lib.go:68: GetClassObject was called, className: A
+GO: 2024/04/19 11:45:41 lib.go:73: Matched class A, creating component A
+GO: 2024/04/19 11:45:41 logging.go:52: Creating AddIn in C
+GO: 2024/04/19 11:45:41 logging.go:52: Creating LanguageExtender in C
+GO: 2024/04/19 11:45:41 logging.go:52: Created LanguageExtender in C
+GO: 2024/04/19 11:45:41 logging.go:52: AddIn created in C
+GO: 2024/04/19 11:45:41 logging.go:52: Setting memory manager
+GO: 2024/04/19 11:45:41 logging.go:52: Pointer to AddIn: 
+GO: 2024/04/19 11:45:41 logging.go:57: Pointer: 0x24f64022110
+GO: 2024/04/19 11:45:41 logging.go:52: Memory manager was set
+GO: 2024/04/19 11:45:41 logging.go:52: Init function was called
+GO: 2024/04/19 11:45:41 component.go:74: Finding property 'Property1'
+GO: 2024/04/19 11:45:41 component.go:86: Getting property value for index 0
+GO: 2024/04/19 11:45:41 lib.go:20: Getting AddIn pointer from LanguageExtenderVTable: 0x24f64022118
+GO: 2024/04/19 11:45:41 lib.go:24: Applying offset: 1, pointer size: 8
+GO: 2024/04/19 11:45:41 lib.go:28: AddIn pointer: 0x24f64022110
+GO: 2024/04/19 11:45:41 platformtypes.go:55: Setting string value Hello, world!
+GO: 2024/04/19 11:45:41 logging.go:57: Pointer: 0x24f64022110
+GO: 2024/04/19 11:45:41 platformtypes.go:59: WChar length: 13
+GO: 2024/04/19 11:45:41 platformtypes.go:60: Target length: 26
+GO: 2024/04/19 11:45:41 component.go:45: Allocated memory of size 26
+GO: 2024/04/19 11:45:41 platformtypes.go:69: H - WChar #0: 72
+GO: 2024/04/19 11:45:41 platformtypes.go:69: e - WChar #1: 101
+GO: 2024/04/19 11:45:41 platformtypes.go:69: l - WChar #2: 108
+GO: 2024/04/19 11:45:41 platformtypes.go:69: l - WChar #3: 108
+GO: 2024/04/19 11:45:41 platformtypes.go:69: o - WChar #4: 111
+GO: 2024/04/19 11:45:41 platformtypes.go:69: , - WChar #5: 44
+GO: 2024/04/19 11:45:41 platformtypes.go:69:   - WChar #6: 32
+GO: 2024/04/19 11:45:41 platformtypes.go:69: w - WChar #7: 119
+GO: 2024/04/19 11:45:41 platformtypes.go:69: o - WChar #8: 111
+GO: 2024/04/19 11:45:41 platformtypes.go:69: r - WChar #9: 114
+GO: 2024/04/19 11:45:41 platformtypes.go:69: l - WChar #10: 108
+GO: 2024/04/19 11:45:41 platformtypes.go:69: d - WChar #11: 100
+GO: 2024/04/19 11:45:41 platformtypes.go:69: ! - WChar #12: 33

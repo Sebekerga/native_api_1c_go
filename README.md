@@ -1,0 +1,1 @@
+Use with `go build -buildmode=c-shared -o ./out/lib.dll`
